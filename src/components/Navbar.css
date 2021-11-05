@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  font-family: SF Pro;
+}
+body {
+  font-size: 14px;
+}
+.nav {
+  width: 100%;
+  height: 90px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.bar {
+  width: 100%;
+  height: 84px;
+  background: rgba(6, 21, 160, 0.856);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.pages {
+    color: rgb(255,255,255);
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.about {
+  width: 75px;
+  position: absolute;
+  top: 27px;
+  left: 638px;
+}
+.speech {
+  width: 177px;
+  position: absolute;
+  top: 27px;
+  left: 781px;
+}
+.glove {
+  width: 177px;
+  position: absolute;
+  top: 27px;
+  left: 1009px;
+}
+
+.apply{
+  width: 177px;
+  position: absolute;
+  top: 27px;
+  left: 1200px;
+}
+
+.burger {
+    overflow: hidden;
+		opacity: 1;
+}
+
+.burger1 {
+  width: 28px;
+  height: 5px;
+  background: rgb(212, 175, 55);
+  position: absolute;
+  top: 29px;
+  left: 1343px;
+}
+.burger2 {
+  width: 28px;
+  height: 5px;
+  background: rgb(212, 175, 55);
+  position: absolute;
+  top: 38px;
+  left: 1343px;
+}
+
+.burger3 {
+    width: 28px;
+    height: 5px;
+    background: rgb(212, 175, 55);
+    position: absolute;
+    top: 47px;
+    left: 1343px;
+}
+
+.swt {
+  width: 394px;
+  position: absolute;
+  top: 20px;
+  left: 28px;
+  font-size: 30px;
+}
