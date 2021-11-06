@@ -8,8 +8,7 @@ import About from './About/About';
 function App() {
   return(
     <div>
-        {/* <Home></Home> */}
-        <About></About>
+        <Home></Home>
     </div>
   );
 }

@@ -1,0 +1,14 @@
+.box {
+    border: 1px solid #b9baae;
+    background-color: #b9baae;
+    margin-right: auto;
+    width: 20%;
+}
+h2 {
+    margin: 10px;
+}
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
