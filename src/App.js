@@ -11,7 +11,7 @@ import Profiles from './Profiles/Profiles';
 function App() {
   return(
     <div>
-        {/* <Home></Home> */}  
+      {/* <Home></Home> */}
       <Profiles></Profiles>
     </div>
   );
