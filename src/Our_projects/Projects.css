@@ -3,11 +3,10 @@
       margin: 0;
   }
   
-  
-  .header {
-    border: 1px solid red;
-    padding: 5px;
+  .projects{
+    margin:20px;
   }
+
 
 
   .row::after {
