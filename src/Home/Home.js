@@ -9,7 +9,7 @@ console.log(team);
 export default function Home() {
     return (
         <div>
-            {/* <div class="header">
+            <div class="header">
                 <Navbar></Navbar>
             </div>
             <div className="row">
@@ -21,9 +21,6 @@ export default function Home() {
                 </div>
             </div>
             
-            </div> */}
-            <div className='headingBox'>
-                <Heading></Heading>
             </div>
             
             

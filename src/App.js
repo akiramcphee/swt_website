@@ -8,7 +8,8 @@ import About from './About/About';
 function App() {
   return(
     <div>
-        <Home></Home>
+        {/* <Home></Home> */}
+        <About></About>
     </div>
   );
 }
