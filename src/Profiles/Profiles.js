@@ -4,10 +4,7 @@ import Navbar from '../components/Navbar'
 
 export default function Profiles() {
 	return (
-		<div>
-			<div className="header">
-					<Navbar></Navbar>
-			</div>
+		<div className = "profile">
 			<div className="row">
 					<div className="col-12">
 						<div className = "team_background">

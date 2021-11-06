@@ -2,7 +2,7 @@
     box-sizing: border-box;
       margin: 0;
   }
-  
+
   .team_background {
     padding: 0;
     margin: 0;
@@ -33,6 +33,7 @@ float: left;
 .Team {
     padding: 5%;
     text-align: center;
+    color: black;
 }
 
 .col-1 {width: 8.33%;}
