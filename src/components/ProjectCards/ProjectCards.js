@@ -1,5 +1,5 @@
 import React from 'react'
-import './Project_cards.css'
+import './ProjectCards.css'
 import Getting_scammed from '../../images/Getting_scammed.JPG'
 
 console.log(Getting_scammed);

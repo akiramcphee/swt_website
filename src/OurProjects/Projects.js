@@ -1,5 +1,5 @@
 import React from 'react'
-import Project_cards from '../components/Project_cards/Project_cards'
+import ProjectCards from '../components/ProjectCards/ProjectCards'
 import './Projects.css'
 
 export default function Projects() {
@@ -14,13 +14,13 @@ export default function Projects() {
             </div>
 			<div className="row">
                 <div className="col-4">
-                    <Project_cards/>
+                    <ProjectCards/>
                 </div>
                 <div className="col-4">
-                    <Project_cards/>
+                    <ProjectCards/>
                 </div>
                 <div className="col-4">
-                    <Project_cards/>
+                    <ProjectCards/>
                 </div>
             </div>
 		</div>

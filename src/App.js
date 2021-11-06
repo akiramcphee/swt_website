@@ -1,10 +1,10 @@
 //import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/Navbar';
 import Home from './Home/Home';
 import About from './About/About';
-import Projects from './Our_projects/Projects';
+import Projects from './OurProjects/Projects';
 import Log from './Log/Log';
 import Profiles from './Profiles/Profiles';
 

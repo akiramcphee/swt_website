@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Button } from './Button'
+import { Button } from '../Button/Button'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
 
@@ -65,7 +65,8 @@ function Navbar() {
 
             <li>
               <Link
-                to='/join'
+                to={{pathname: "https://www.challeng.unsw.edu.au/challeng-projects/smart-wearable-tech"}}
+                target="_blank"
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
