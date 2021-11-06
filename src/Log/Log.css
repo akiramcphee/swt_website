@@ -1,66 +1,86 @@
 * {
     box-sizing: border-box;
       margin: 0;
-  }
-  
-  .background_image {
-    padding: 0;
-    margin: 0;
-    position: relative;
-    text-align: center;
-    color: white;
-    font-size: 20px;
-  }
+}
 
-  .bottom-left {
-    position: absolute;
-    top: 20px;
-    left: 16px;
-  }
-  .card-one {
-    position: absolute;
-    top: 40%;
-    left: 10%;
-  }
+.back { 
+  position: relative; 
+  height: 100vh;
+  width: 100%;
 
-  .card-two {
-    position: absolute;
-    top: 40%;
-    right: 40%;
-  }
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/stuff.jpg");
+  background-size: cover;
+}
+.back::before {    
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(11, 13, 179, 0.25);
+}
 
 
-  img { 
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    opacity: 0.6;
-    filter: hue-rotate(180); 
-    filter: brightness(50%);
+.background_image {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
 
-  }
+.project {
+  position: relative;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  font-size: 40px;
+  font-weight: 600;
+  opacity: 1;
+}
 
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  [class*="col-"] {
-    float: left;
-       padding: 0;
-  
-  }
-  
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
+.container { 
+  position:relative;
+}
+
+.card-one  { position:absolute; top: 0px; left: 0px; z-index: 1; } 
+.card-two { position:absolute; top: 70px; left: 100px; z-index: 3; }
+
+
+
+img { 
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  filter: hue-rotate(180); 
+  border-radius: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+      padding: 0;
+
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
