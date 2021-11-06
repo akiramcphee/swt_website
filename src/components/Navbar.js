@@ -28,7 +28,6 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <h1>SWT</h1>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             <img 
               className='swt-logo' 
@@ -74,7 +73,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--medium'>JOIN</Button>}
+          {button && <Button buttonStyle='btn--outline'>JOIN</Button>}
         </div>
       </nav>
     </>
