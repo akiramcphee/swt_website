@@ -20,7 +20,7 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
-  background-color: rgba(11, 13, 179, 0.25);
+  background-color: rgba(149, 151, 241, 0.25);
 }
 
 
@@ -57,7 +57,6 @@ img {
   margin: 0;
   width: 100%;
   filter: hue-rotate(180); 
-  border-radius: 5px;
 }
 
 .row::after {
