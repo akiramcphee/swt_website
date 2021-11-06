@@ -27,6 +27,9 @@ function Navbar() {
 
   return (
     <>
+      <head>
+        <script src="https://kit.fontawesome.com/77279b3185.js" crossorigin="anonymous"></script>
+      </head>
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>            
@@ -52,7 +55,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/team'
+                to='/profiles'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -70,7 +73,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>JOIN</Button>}
+          {button && <Button buttonStyle='btn--medium'>JOIN</Button>}
         </div>
       </nav>
     </>

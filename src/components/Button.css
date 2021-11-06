@@ -1,5 +1,5 @@
 :root {
-    --primary: #fff;
+    --primary: #F0C26B;
 }
 
 .btn {
@@ -12,7 +12,7 @@
 
 .btn--primary {
     background-color: var(--primary);
-    color: #242424;
+    color: #000;
     border: 1px solid var(--primary);
 }
 
