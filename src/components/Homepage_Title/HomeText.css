@@ -1,0 +1,23 @@
+.TitleBox {
+    padding:20px;
+    margin:20px;
+}
+.unsw_subtitle {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 5px;
+    color: white;
+}
+.homeText_swt {
+    text-align: center;
+    font-weight: 500;
+    font-size: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.homeText-text{
+    margin:50px;
+  }
