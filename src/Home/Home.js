@@ -10,11 +10,7 @@ console.log(team);
 export default function Home() {
     return (
         <div>
-            <div class="header">
-                <Navbar></Navbar>
-            </div>
             <div className="row">
-                
 
             <div className="col-12">
                 <div className = "background_image">
