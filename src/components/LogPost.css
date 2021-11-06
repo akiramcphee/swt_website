@@ -10,11 +10,11 @@
 }
 
 
-p, h3 {
+.logPost_description, .logPost_date {
     margin: 5px;
 }
 
-h3 {
+.logPost_date {
     color: rgb(240, 194, 107);
 }
 

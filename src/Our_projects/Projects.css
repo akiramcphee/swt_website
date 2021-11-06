@@ -9,6 +9,16 @@
 
 
 
+
+  .our_projects{
+    color: black;
+    margin: 20px;
+  }
+
+  .our_projects_description{
+    margin: 10px;
+    margin-left: 20px;
+  }
   .row::after {
     content: "";
     clear: both;
