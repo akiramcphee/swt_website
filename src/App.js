@@ -6,13 +6,14 @@ import About from './About/About';
 import Projects from './Our_projects/Projects';
 import Log from './Log/Log';
 import Profiles from './Profiles/Profiles';
-
+import LogPost from './components/LogPost';
 
 function App() {
   return(
     <div>
-        {/* <Home></Home> */}  
-      <Profiles></Profiles>
+      <Log></Log>
+      {/* <Log></Log> */}
+
     </div>
   );
 }

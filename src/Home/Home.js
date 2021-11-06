@@ -12,14 +12,11 @@ export default function Home() {
                 <Navbar></Navbar>
             </div>
             <div className="row">
-                
-
-            <div className="col-12">
-                <div className = "background_image">
-                    <img src={team} alt="SWT"></img>
+                <div className="col-12">
+                    <div className = "background_image">
+                        <img src={team} alt="SWT"></img>
+                    </div>
                 </div>
-            </div>
-            
             </div>
 
             
