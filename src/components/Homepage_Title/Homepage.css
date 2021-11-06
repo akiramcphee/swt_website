@@ -4,12 +4,12 @@
     margin-right: auto;
     width: 20%;
 }
-h4 {
+.this_is_subtitle {
     text-align: center;
     margin-top: 5px;
     color: white;
 }
-h1 {
+.this_is_title {
     text-align: center;
     margin-top: 5px;
     margin-bottom: 5px;
