@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Heading from '../components/Heading/Heading';
+import Homepage from '../components/Homepage_Title/Homepage'
 import './Home.css'
 import team from '../images/team.jpg'
 
@@ -23,6 +24,9 @@ export default function Home() {
             
             </div>
             
+            <div>
+                <Homepage></Homepage>
+            </div>
             
         </div>
     )
