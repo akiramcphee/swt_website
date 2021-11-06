@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Heading from '../components/Heading/Heading';
 import Homepage from '../components/Homepage_Title/Homepage'
+import Project_Tile from '../components/Project_Tile/Project_Tile';
 import './Home.css'
 import team from '../images/team.jpg'
 
@@ -10,7 +11,7 @@ console.log(team);
 export default function Home() {
     return (
         <div>
-            <div class="header">
+            {/* <div class="header">
                 <Navbar></Navbar>
             </div>
             <div className="row">
@@ -23,9 +24,9 @@ export default function Home() {
             </div>
             
             </div>
-            
+             */}
             <div>
-                <Homepage></Homepage>
+                <Project_Tile></Project_Tile>
             </div>
             
         </div>

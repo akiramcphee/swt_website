@@ -11,8 +11,8 @@ import Profiles from './Profiles/Profiles';
 function App() {
   return(
     <div>
-      {/* <Home></Home> */}
-      <Profiles></Profiles>
+      <Home></Home>
+      {/* <Profiles></Profiles> */}
     </div>
   );
 }
