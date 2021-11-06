@@ -5,13 +5,14 @@ import Home from './Home/Home';
 import About from './About/About';
 import Projects from './Our_projects/Projects';
 import Log from './Log/Log';
+import Profiles from './Profiles/Profiles';
 
 
 function App() {
   return(
     <div>
         {/* <Home></Home> */}  
-      <Log></Log>
+      <Profiles></Profiles>
     </div>
   );
 }
