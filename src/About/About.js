@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import './About.css'
 import osckilloscope from '../images/about_image.jpeg'
 
@@ -8,9 +7,6 @@ console.log(osckilloscope);
 export default function About() {
     return (
         <div>
-            <div className="header">
-                <Navbar></Navbar>
-            </div>
             <div className = "col-6">
                 <div className ="about_image">
                     <img src={osckilloscope} alt="osckilloscope"></img>

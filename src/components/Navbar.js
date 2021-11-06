@@ -1,26 +1,80 @@
-import React from 'react'
-import './Navbar.css'
+import React, { useState, useEffect } from 'react';
+import { Button } from './Button';
+import { Link } from 'react-router-dom';
+import './Navbar.css';
 
 function Navbar() {
-    return (
-        <div>
-            <div className="nav">
-                <div className="bar"></div>
-                <div className = "pages">
-                    <span className="swt">Smart Wearable Tech</span>
-                    <span className="about">About</span>
-                    <span class="speech">Speech Recognition</span>
-                    <span className="glove">Smart Glove</span>
-                    <div className="apply"> Apply </div>
-                </div>
-                <div className = "burger">
-                    <div className="burger1"></div>
-                    <div className="burger2"></div>
-                    <div className="burger3"></div>
-                </div>
-            </div>
+  const [click, setClick] = useState(false);
+  const [button, setButton] = useState(true);
+
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
+
+  const showButton = () => {
+    if (window.innerWidth <= 960) {
+      setButton(false);
+    } else {
+      setButton(true);
+    }
+  };
+
+  // only render sign up button once (don't show up again randomly placed on reload)
+  useEffect(() => {
+    showButton();
+  }, []);
+
+  window.addEventListener('resize', showButton);
+
+  return (
+    <>
+      <nav className='navbar'>
+        <div className='navbar-container'>
+          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>            
+            <img className="swt-logo" src="logo_white.svg" alt="Smart Wearable Tech logo"/>
+          </Link>
+          <div className='menu-icon' onClick={handleClick}>
+            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+          </div>
+          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+            <li className='nav-item'>
+              <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
+                About
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/projects'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Our Projects
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/team'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                The Team 
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                to='/join'
+                className='nav-links-mobile'
+                onClick={closeMobileMenu}
+              >
+                Join
+              </Link>
+            </li>
+          </ul>
+          {button && <Button buttonStyle='btn--outline'>JOIN</Button>}
         </div>
-    )
+      </nav>
+    </>
+  );
 }
 
-export default Navbar
+export default Navbar;

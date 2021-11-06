@@ -1,101 +1,162 @@
-* {
-  box-sizing: border-box;
-  font-family: SF Pro,'Times New Roman', Times, serif;
-	margin: 0;
+.navbar {
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    max-width: 1500px;
+  }
 
-}
-body {
-  font-size: 14px;
-}
-.nav {
-  width: 100%;
-  height: 60px;
-  opacity: 1;
-  top: 0px;
-  left: 0px;
-	margin: 5px;
-  overflow: hidden;
-}
-.bar {
-  width: 100%;
-  height: 84px;
-  background: rgba(6, 21, 160, 0.856);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-
-.pages {
-    color: rgb(255,255,255);
-    font-weight: Regular;
-    font-size: 20px;
-    opacity: 1;
-    text-align: left;
-}
-
-.about {
-  width: 75px;
-  position: absolute;
-  top: 27px;
-  left: 638px;
-}
-.speech {
-  width: 177px;
-  position: absolute;
-  top: 27px;
-  left: 781px;
-}
-.glove {
-  width: 177px;
-  position: absolute;
-  top: 27px;
-  left: 1009px;
-}
-
-.apply{
-  width: 177px;
-  position: absolute;
-  top: 27px;
-  left: 1200px;
-}
-
-.burger {
-    overflow: hidden;
-		opacity: 1;
-}
-
-.burger1 {
-  width: 28px;
-  height: 5px;
-  background: rgb(212, 175, 55);
-  position: absolute;
-  top: 29px;
-  left: 1343px;
-}
-.burger2 {
-  width: 28px;
-  height: 5px;
-  background: rgb(212, 175, 55);
-  position: absolute;
-  top: 38px;
-  left: 1343px;
-}
-
-.burger3 {
-    width: 28px;
-    height: 5px;
-    background: rgb(212, 175, 55);
-    position: absolute;
-    top: 47px;
-    left: 1343px;
-}
-
-.swt {
-  width: 394px;
-  position: absolute;
-  top: 20px;
-  left: 28px;
-  font-size: 30px;
-}
+  img {
+    width: 60px
+  }
+  
+  .navbar-logo {
+    color: #fff;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .fa-typo3 {
+    margin-left: 0.5rem;
+    font-size: 1.8rem;
+  }
+  
+  .nav-menu {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    justify-content: end;
+    margin-right: 2rem;
+  }
+  
+  .nav-item {
+    height: 80px;
+  }
+  
+  .nav-links {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+  }
+  
+  .nav-links:hover {
+    border-bottom: 4px solid #fff;
+    transition: all 0.2s ease-out;
+  }
+  
+  .fa-bars {
+    color: #fff;
+  }
+  
+  .nav-links-mobile {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .NavbarItems {
+      position: relative;
+    }
+  
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 90vh;
+      position: absolute;
+      top: 80px;
+      left: -100%;
+      opacity: 1;
+      transition: all 0.5s ease;
+    }
+  
+    .nav-menu.active {
+      background: #242222;
+      left: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+    }
+  
+    .nav-links {
+      text-align: center;
+      padding: 2rem;
+      width: 100%;
+      display: table;
+    }
+  
+    .nav-links:hover {
+      background-color: #fff;
+      color: #242424;
+      border-radius: 0;
+    }
+  
+    .navbar-logo {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translate(25%, 50%);
+    }
+  
+    .menu-icon {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: translate(-100%, 60%);
+      font-size: 1.8rem;
+      cursor: pointer;
+    }
+  
+    .fa-times {
+      color: #fff;
+      font-size: 2rem;
+    }
+  
+    .nav-links-mobile {
+      display: block;
+      text-align: center;
+      margin: 2rem auto;
+      border-radius: 4px;
+      width: 80%;
+      text-decoration: none;
+      font-size: 1.5rem;
+      background-color: transparent;
+      color: #fff;
+      padding: 14px 20px;
+      border: 1px solid #fff;
+      transition: all 0.3s ease-out;
+    }
+  
+    .nav-links-mobile:hover {
+      background: #fff;
+      color: #242424;
+      transition: 250ms;
+    }
+  }
