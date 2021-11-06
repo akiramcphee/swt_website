@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import { Button } from './Button';
-import { Link } from 'react-router-dom';
-import './Navbar.css';
+import React, { useState, useEffect } from 'react'
+import { Button } from './Button'
+import { Link } from 'react-router-dom'
+import './Navbar.css'
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -18,7 +18,6 @@ function Navbar() {
     }
   };
 
-  // only render sign up button once (don't show up again randomly placed on reload)
   useEffect(() => {
     showButton();
   }, []);
@@ -27,13 +26,15 @@ function Navbar() {
 
   return (
     <>
-      <head>
-        <script src="https://kit.fontawesome.com/77279b3185.js" crossorigin="anonymous"></script>
-      </head>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>            
-            <img className="swt-logo" src="logo_white.svg" alt="Smart Wearable Tech logo"/>
+          <h1>SWT</h1>
+          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+            <img 
+              className='swt-logo' 
+              src='./logo_white.svg'
+              alt='Smart Wearable Tech logo'
+            />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -59,7 +60,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                The Team 
+                The Team
               </Link>
             </li>
 
@@ -69,7 +70,7 @@ function Navbar() {
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
-                Join
+                JOIN
               </Link>
             </li>
           </ul>
