@@ -15,15 +15,11 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/' exact component={Home}/>
-          <Route path='/about' component={About}/>
-          <Route path='/projects' component={Projects}/>
-          <Route path='/team' component={Profiles}/>
-          <Route path='/log' component={Log}/>
-          <Route path='/join' component={() => {
-            window.location.href = 'https://www.challeng.unsw.edu.au/challeng-projects/smart-wearable-tech';
-            return null;
-          }}/>
+          <Route path='/' exact component={Home} element={<Home />}/>
+          <Route path='/about' element={<About />}/>
+          <Route path='/projects' exact component={Projects} element={<Projects/>}/>
+          <Route path='/log' exact component={Log} element={< Log/>}/>
+          <Route path='/profiles' exact component={Profiles} element={<Profiles />}/>
         </Routes>
       </Router>
     </div>
