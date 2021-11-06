@@ -3,12 +3,42 @@
       margin: 0;
   }
   
-  
-  .header {
-    border: 1px solid red;
-    padding: 5px;
+  .background_image {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 20px;
   }
 
+  .bottom-left {
+    position: absolute;
+    top: 20px;
+    left: 16px;
+  }
+  .card-one {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+  }
+
+  .card-two {
+    position: absolute;
+    top: 40%;
+    right: 40%;
+  }
+
+
+  img { 
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    opacity: 0.6;
+    filter: hue-rotate(180); 
+    filter: brightness(50%);
+
+  }
 
   .row::after {
     content: "";
@@ -19,6 +49,7 @@
   [class*="col-"] {
     float: left;
        padding: 0;
+  
   }
   
   .col-1 {width: 8.33%;}
