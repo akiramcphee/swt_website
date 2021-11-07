@@ -18,7 +18,9 @@ function App() {
           <Route path='/' exact component={Home} element={<Home />}/>
           <Route path='/about' element={<About />}/>
           <Route path='/projects' exact component={Projects} element={<Projects/>}/>
-          <Route path='/log' exact component={Log} element={< Log/>}/>
+          <Route path='/log/Speech%20Recognition' exact component={Log} element={< Log/>}/>
+          <Route path='/log/Smart%20Glove' exact component={Log} element={< Log/>}/>
+          <Route path='/log/Pulse' exact component={Log} element={< Log/>}/>
           <Route path='/profiles' exact component={Profiles} element={<Profiles />}/>
         </Routes>
       </Router>

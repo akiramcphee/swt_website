@@ -28,16 +28,18 @@ export default function Projects() {
     }
 
     return (
-        <div className = "profile">
+        <div className = "profile">   
 			<div className="row">
                 <div className = "our_projects">
                     <h1>Our Projects</h1>
                 </div>
                     <p className = "our_projects_description">Wearable technologies have the potential to revolutionise many different aspects of our lives. Here are some we have explored.</p>               
             </div>
+            
 			<div className="row">
                 <div className="col-4">
                     <Project_cards projectName={speech.name} background={speech.background} description={speech.description}/>
+                    
                 </div>
                 <div className="col-4">
                     <Project_cards projectName={glove.name} background={glove.background} description={glove.description}/>
@@ -46,6 +48,7 @@ export default function Projects() {
                     <Project_cards projectName={pulse.name} background={pulse.background} description={speech.description}/>
                 </div>
             </div>
+
 		</div>
     )
 }

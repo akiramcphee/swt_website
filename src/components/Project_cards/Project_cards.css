@@ -10,6 +10,10 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.project-image{
+    border-radius: 5px;
+}
+
 .project-cards-text{
     background-color: rgb(70, 109, 133);
     border-radius: 0 0 5px 5px;
@@ -24,6 +28,8 @@
     padding: 20px;
     padding-bottom: 5px;
     padding-top: 15px;
+    border-radius: 0 0 5px 5px;
+
 
 }
 
@@ -33,7 +39,14 @@
     margin-top: -5px;
     padding: 10px;
     padding-bottom: 20px;
+    border-radius: 0 0 5px 5px;
 
+
+}
+
+.cards:hover {
+    transform: scale(1.05);
+    transition: all 0.2s ease-out;
 }
 
 
