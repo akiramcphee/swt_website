@@ -11,22 +11,6 @@ console.log(pulseImage);
 
 
 export default function Projects() {
-    const speech = {
-        name: "Speech Recognition",
-        background: speechImage,
-        description: "Add something here for speech"
-    }
-    const glove = {
-        name: "Smart Glove",
-        background: gloveImage,
-        description: "Add something here for glove"
-    }
-    const pulse = {
-        name: "Pulse",
-        background: pulseImage,
-        description: "Add something here for pulse"
-    }
-
     return (
         <div className = "profile">   
 			<div className="row">
@@ -38,14 +22,15 @@ export default function Projects() {
             
 			<div className="row">
                 <div className="col-4">
-                    <Project_cards projectName={speech.name} background={speech.background} description={speech.description}/>
+                    <Project_cards projectName='speech'/>
                     
                 </div>
                 <div className="col-4">
-                    <Project_cards projectName={glove.name} background={glove.background} description={glove.description}/>
+                    <Project_cards projectName='glove'/>
                 </div>
+
                 <div className="col-4">
-                    <Project_cards projectName={pulse.name} background={pulse.background} description={speech.description}/>
+                    <Project_cards projectName='pulse'/>
                 </div>
             </div>
 

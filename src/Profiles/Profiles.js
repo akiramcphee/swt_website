@@ -1,5 +1,6 @@
 import React from 'react'
 import './Profiles.css'
+import Navbar from '../components/Navbar'
 
 export default function Profiles() {
 	return (
@@ -50,6 +51,6 @@ export default function Profiles() {
 						</div>
 					</div>
 			</div>
-	</div>
+		</div>
 	)
 }
