@@ -13,7 +13,7 @@ export default function Project_cards(props) {
             <div className = "project-border-color">
                 <Link to={`/log/${props.projectName}`}>
                 <div className = "project-image">   
-                     <img src={photo} alt="SWT"></img>
+                     <img className = "card-image" src={photo} alt="SWT"></img>
                 </div>
                 </Link>
                 <div className = "project-cards-text">
