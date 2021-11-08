@@ -2,6 +2,8 @@
     "project-name":{
         "speech":{
             "full-name": "Speech Recognition",
+            "background": "speech.jpeg",
+            "description": "Add something here for speech",
             "week_1": {
                 "date": "June 2021",
                 "overview": "Le Graph",
@@ -25,6 +27,8 @@
         },
         "glove":{
             "full-name": "Smart Glove",
+            "background": "glove.jpeg",
+            "description": "Add something here for glove",
             "week_1": {
                 "date": "June 2021",
                 "overview": "Test glove",
@@ -48,6 +52,8 @@
         },
         "pulse":{
             "full-name": "Pulse",
+            "background": "pulse.jpeg",
+            "description": "Add something here for pulse",
             "week_1": {
                 "date": "June 2021",
                 "overview": "TEst pulse",
