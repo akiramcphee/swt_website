@@ -22,13 +22,11 @@ export default function Projects() {
             
 			<div className="row">
                 <div className="col-4">
-                    <Project_cards projectName='speech'/>
-                    
+                    <Project_cards projectName='speech'/>  
                 </div>
                 <div className="col-4">
                     <Project_cards projectName='glove'/>
                 </div>
-
                 <div className="col-4">
                     <Project_cards projectName='pulse'/>
                 </div>

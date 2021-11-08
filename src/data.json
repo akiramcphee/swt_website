@@ -17,12 +17,12 @@
             "week_3":{
                 "date":"August 2021",
                 "overview":"哎哟",
-                "image": "week_1_img.png"
+                "image": "stuff.jpg"
             },       
             "week_4":{
                 "date":"September 2021",
                 "overview":"哎哟",
-                "image": "week_5_img.png"
+                "image": "stuff.jpg"
             }
         },
         "glove":{
@@ -42,12 +42,12 @@
             "week_3":{
                 "date":"August 2021",
                 "overview":"哎哟",
-                "image": "week_1_img.png"
+                "image": "stuff.jpg"
             },       
             "week_4":{
                 "date":"September 2021",
                 "overview":"哎哟",
-                "image": "week_5_img.png"
+                "image": "week_1_img.png"
             }
         },
         "pulse":{
@@ -62,17 +62,17 @@
             "week_2":{
                 "date":"July 2021",
                 "overview":"哎哟",
-                "image": "stuff.jpg"
+                "image": "week_1.png"
             },
             "week_3":{
                 "date":"August 2021",
                 "overview":"哎哟",
-                "image": "week_1_img.png"
+                "image": "week_5.png"
             },       
             "week_4":{
                 "date":"September 2021",
                 "overview":"哎哟",
-                "image": "week_5_img.png"
+                "image": "stuff.jpg"
             }
         }
     }
