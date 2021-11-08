@@ -34,8 +34,12 @@ function Navbar() {
               src='./logo_white.svg'
               alt='Smart Wearable Tech logo'
             />
+            
           </Link>
-          <p className = "swt-text">Smart Wearable Tech</p>
+          <Link to='/' className='text-link-to-home' onClick={closeMobileMenu}>
+              <p className = "swt-text">Smart Wearable Tech</p>
+          </Link>
+          
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
