@@ -31,6 +31,25 @@ export default function Projects() {
                     <Project_cards projectName='pulse'/>
                 </div>
             </div>
+            <div className="row">
+                <div className="col-12">
+                    <div className = "read-more">
+                        <h2>Scroll Down to Read More</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div className="row">
+                <div className="col-4">
+                    <Project_cards projectName='speech'/>  
+                </div>
+                <div className="col-4">
+                    <Project_cards projectName='glove'/>
+                </div>
+                <div className="col-4">
+                    <Project_cards projectName='pulse'/>
+                </div>
+            </div>
 
 		</div>
     )

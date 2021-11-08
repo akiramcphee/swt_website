@@ -20,7 +20,7 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
-  background-color: rgba(149, 151, 241, 0.25);
+  background-color: rgba(49, 48, 44, 0.562);
 }
 
 
@@ -29,13 +29,13 @@
   margin: 0;
   position: relative;
   text-align: center;
-  color: white;
+  color: rgb(240, 207, 185);
   font-size: 20px;
 }
 
 .project {
   position: relative;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 20px;
   margin: 20px;
   font-size: 40px;
