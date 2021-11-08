@@ -1,21 +1,58 @@
-
+:root {
+    --primary: rgb(221, 192, 62);
+    --primary_blue: rgb(0, 23, 126);
+}
 
 .project-border-color{
-    width: 90%;
-    margin:20px;
-    border: 1px solid rgba(0, 0, 0, 0.25);
+    margin: auto;
+    margin-top: 30px;
+    width: 70%;
     background-color: white;
     border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-image{
+    border-radius: 5px;
+}
+
+.project-cards-text{
+    background-color: var(--primary_blue);
+    border-radius: 0 0 5px 5px;
+    text-align: center;
+    color:white;
+}
+
+.card-image{
+    border-radius: 5px 5px 0 0;
 }
 
 .project_name{
-    color:white;
     font-weight: 200;
+    color: var(--primary);
+    margin-top: -5px;
+    padding: 20px;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    border-radius: 0 0 5px 5px;
+
+}
+
+.project-cards-brief-description{
+    font-weight: 100;
+    font-size: 10px;
     margin-top: -5px;
     padding: 10px;
-    background-color: rgb(70, 109, 133);
-    text-align: center;
+    padding-bottom: 20px;
     border-radius: 0 0 5px 5px;
+
+
 }
+
+.cards:hover {
+    transform: scale(1.05);
+    transition: all 0.2s ease-out;
+}
+
+
 

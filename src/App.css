@@ -1,4 +1,9 @@
 
-body {
-  font-family: "SF Pro";
+@font-face {
+  font-family: Clancy;
+  src: url("unsw_fonts/Clancy/Clancy-Regular.otf") format("opentype");
+}
+
+body{
+  font-family: Clancy ;
 }

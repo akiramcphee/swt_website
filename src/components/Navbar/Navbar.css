@@ -1,5 +1,5 @@
 .navbar {
-  background: #000;
+  background: rgb(6, 18, 71);
   height: 80px;
   display: flex;
   justify-content: center;
@@ -32,13 +32,21 @@
   height: 60px;
 }
 
+.swt-text{
+  color: white;
+  margin: 40px;
+}
+.text-link-to-home{
+  text-decoration: none;
+}
+
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(4, auto);
   gap: 5px;
   list-style: none;
   text-align: center;
-  width: 75vw;
+  width: 60vw;
   justify-content: end;
   margin-right: 20px;
 }

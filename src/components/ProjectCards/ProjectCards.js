@@ -1,17 +1,25 @@
 import React from 'react'
 import './ProjectCards.css'
 import Getting_scammed from '../../images/Getting_scammed.JPG'
+import { Link } from 'react-router-dom'
 
 console.log(Getting_scammed);
 
-export default function Project_cards() {
+export default function Project_cards(props) {
+    let log = require('../../data.json');
+    const photo = require(`../../images/${log['project-name'][props.projectName].background}`).default;
     return (
-        <div>
+        <div className = "cards">
             <div className = "project-border-color">
+                <Link to={`/log/${props.projectName}`}>
                 <div className = "project-image">   
-                     <img src={Getting_scammed} alt="SWT"></img>
+                     <img className = "card-image" src={photo} alt="SWT"></img>
                 </div>
-                <h3 className = "project_name">Project Name</h3>
+                </Link>
+                <div className = "project-cards-text">
+                    <h3 className = "project_name">{log['project-name'][props.projectName]['full-name']}</h3>
+                    <p className= "project-cards-brief-description">{log['project-name'][props.projectName]['description']}</p>
+                </div>
             </div>
         </div>
     )
