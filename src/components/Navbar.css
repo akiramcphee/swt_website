@@ -32,13 +32,18 @@
   height: 60px;
 }
 
+.swt-text{
+  color: white;
+  margin: 40px;
+}
+
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(4, auto);
   gap: 5px;
   list-style: none;
   text-align: center;
-  width: 75vw;
+  width: 60vw;
   justify-content: end;
   margin-right: 20px;
 }
