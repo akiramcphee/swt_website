@@ -1,0 +1,75 @@
+{
+    "project-name":{
+        "speech":{
+            "full-name": "Speech Recognition",
+            "week_1": {
+                "date": "June 2021",
+                "overview": "Le Graph",
+                "image": "Getting_scammed.JPG"
+            },
+            "week_2":{
+                "date":"July 2021",
+                "overview":"哎哟",
+                "image": "stuff.jpg"
+            },
+            "week_3":{
+                "date":"August 2021",
+                "overview":"哎哟",
+                "image": "week_1_img.png"
+            },       
+            "week_4":{
+                "date":"September 2021",
+                "overview":"哎哟",
+                "image": "week_5_img.png"
+            }
+        },
+        "glove":{
+            "full-name": "Smart Glove",
+            "week_1": {
+                "date": "June 2021",
+                "overview": "Test glove",
+                "image": "Getting_scammed.JPG"
+            },
+            "week_2":{
+                "date":"July 2021",
+                "overview":"j",
+                "image": "stuff.jpg"
+            },
+            "week_3":{
+                "date":"August 2021",
+                "overview":"哎哟",
+                "image": "week_1_img.png"
+            },       
+            "week_4":{
+                "date":"September 2021",
+                "overview":"哎哟",
+                "image": "week_5_img.png"
+            }
+        },
+        "pulse":{
+            "full-name": "Pulse",
+            "week_1": {
+                "date": "June 2021",
+                "overview": "TEst pulse",
+                "image": "Getting_scammed.JPG"
+            },
+            "week_2":{
+                "date":"July 2021",
+                "overview":"哎哟",
+                "image": "stuff.jpg"
+            },
+            "week_3":{
+                "date":"August 2021",
+                "overview":"哎哟",
+                "image": "week_1_img.png"
+            },       
+            "week_4":{
+                "date":"September 2021",
+                "overview":"哎哟",
+                "image": "week_5_img.png"
+            }
+        }
+    }
+    
+    
+}
