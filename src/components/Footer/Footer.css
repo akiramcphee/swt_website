@@ -1,0 +1,25 @@
+.footer{
+    float: bottom;
+    background-color: rgb(0, 10, 54);
+    height: 300px;
+    margin-top: 300px;
+}
+
+.swt-footer-text{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    padding-top: 140px;
+}
+
+.footer-logo{
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+}
+.swt-logo-footer{
+    width: 200px;
+    height: auto;
+}

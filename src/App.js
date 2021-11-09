@@ -7,6 +7,7 @@ import About from './About/About';
 import Projects from './Our_projects/Projects';
 import Log from './Log/Log';
 import Profiles from './Profiles/Profiles';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path='/log/Pulse' exact component={Log} element={< Log project = "pulse"/>}/>
           <Route path='/profiles' exact component={Profiles} element={<Profiles />}/>
         </Routes>
+        <Footer/>
       </Router>
     </div>
   );
