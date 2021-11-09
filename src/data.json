@@ -3,7 +3,8 @@
         "speech":{
             "full-name": "Speech Recognition",
             "background": "speech.jpeg",
-            "description": "Add something here for speech",
+            "description": "Classify throat vibration samples to words of the NATO Phonetic Alphabet",
+            "full-description": "Spectrograms are a useful way to visualise data in the form of a colourmap. A spectrogram is a visual way of representing the signal strength, or “loudness”, of a signal over time at various frequencies present in a particular waveform. Not only can one see whether there is more or less energy at, for example, 2 Hz vs 10 Hz, but one can also see how energy levels vary over time.",
             "week_1": {
                 "date": "June 2021",
                 "overview": "We smashed together some filters, got really good at CSV and Jupyter (helped in MTRN2500 thank god) and also boosted our git",
@@ -28,7 +29,8 @@
         "glove":{
             "full-name": "Smart Glove",
             "background": "glove.jpeg",
-            "description": "Add something here for glove",
+            "description": "Detect finger movements for rehabilitative and sign language purposes",
+            "full-description": "The Test Database will be drawn from the data collected from Lab 2 (Andrew as test subject). The choice of this lab in particular is simply due to its large quantity of samples (41 samples) relative to Labs 1 (8 samples) and Lab 3 (20 samples). The variety of different waveforms collected will serve as the basis from which variations are to be fabricated.",
             "week_1": {
                 "date": "June 2021",
                 "overview": "Test glove",
@@ -53,7 +55,8 @@
         "pulse":{
             "full-name": "Pulse",
             "background": "pulse.jpeg",
-            "description": "Add something here for pulse",
+            "description": "Detect Pulse of an ideally living human, then play with an exclusive android app",
+            "full-description": "Pandas doesn't seem to like hyphens or numbers as the headings, so they are replaced by an underscore (x_axis as opposed to x-axis) and '2' and '4' are replaced by 'channel_2' and 'channel_4' respectively.",
             "week_1": {
                 "date": "June 2021",
                 "overview": "TEst pulse",

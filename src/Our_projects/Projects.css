@@ -24,13 +24,14 @@
   .read-more{
     text-align: center;
     margin: auto;
+
     margin-top: 60px;
-    padding: 20px;
-    color: white;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+
+    color: rgba(0, 23, 126);
     width: 25%;
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: rgba(0, 23, 126);
+
   }
   .row::after {
     content: "";

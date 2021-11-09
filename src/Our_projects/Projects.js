@@ -1,13 +1,10 @@
 import React from 'react'
 import Project_cards from '../components/Project_cards/Project_cards'
+import BigProjectCard from '../components/BigProjectCard/BigProjectCard';
 import './Projects.css'
-import speechImage from '../images/speech.jpeg'
-import gloveImage from '../images/glove.jpeg'
-import pulseImage from '../images/pulse.jpeg'
 
-console.log(speechImage);
-console.log(gloveImage);
-console.log(pulseImage);
+
+
 
 
 export default function Projects() {
@@ -38,16 +35,19 @@ export default function Projects() {
                     </div>
                 </div>
             </div>
-
             <div className="row">
-                <div className="col-4">
-                    <Project_cards projectName='speech'/>  
+                <div className="col-12">
+                    <BigProjectCard projectName='speech'/>
                 </div>
-                <div className="col-4">
-                    <Project_cards projectName='glove'/>
+            </div>
+            <div className="row">
+                <div className="col-12">
+                    <BigProjectCard projectName='glove'/>
                 </div>
-                <div className="col-4">
-                    <Project_cards projectName='pulse'/>
+            </div>
+            <div className="row">
+                <div className="col-12">
+                    <BigProjectCard projectName='pulse'/>
                 </div>
             </div>
 
