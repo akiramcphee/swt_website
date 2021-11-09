@@ -12,7 +12,7 @@ export default function LogPost(props) {
                 <h3 className = "logPost_date">{log['project-name'][props.project][props.week].date}</h3>
                 <p className = "logPost_description">{log['project-name'][props.project][props.week].overview}</p>
                 <div className = "log-image">
-                    <img src={photo} alt="SWT"></img> 
+                    <img className = "log-image-size" src={photo} alt="SWT"></img> 
                 </div>
             </div>
         </div>
