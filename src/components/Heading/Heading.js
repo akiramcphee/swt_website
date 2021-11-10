@@ -1,15 +1,20 @@
 import React from 'react'
 import './Heading.css'
 
-export default function Heading() {
+export default function Heading(props) {
     return (
         <div class='box'>
-            <h2>
-                This is a heading
-            </h2>
-            <p>
-                This is the description. Please subscribe to my channel
-            </p>
+            <div className='heading'>
+                <h2>
+                    {props.headtext}
+                </h2>
+            </div>
+            
+            <div className='headingText'>
+                <p>
+                    {props.text1}
+                </p>
+            </div>
         </div>
     )
 }
