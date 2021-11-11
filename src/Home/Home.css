@@ -33,6 +33,18 @@
   opacity: 1;
 }
 
+.home-swt-button{
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+  position: relative; 
+
+  margin-top: 0;
+  text-align: center;
+
+}
+
 
 .header {
   border: 1px solid red;
