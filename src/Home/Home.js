@@ -8,6 +8,7 @@ import team from '../images/team.jpg'
 console.log(team);
 
 export default function Home() {
+
     return (
         <div>
             <div className = "back-home">
@@ -18,4 +19,5 @@ export default function Home() {
             </div>
         </div>
     )
+    
 }
