@@ -1,8 +1,6 @@
 import React from 'react'
 import './LogPost.css'
 
-
-
 export default function LogPost(props) {
     let log = require('../../data.json');
     const photo = require(`../../images/${log['project-name'][props.project][props.week].image}`).default;
