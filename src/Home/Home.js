@@ -4,6 +4,7 @@ import React from 'react'
 import HomeText from '../components/Homepage_Title/HomeText'
 import './Home.css'
 import team from '../images/team.jpg'
+import { Button } from '../components/Button';
 
 console.log(team);
 
@@ -15,6 +16,9 @@ export default function Home() {
             <div className="row"></div>
                 <div className="row">
                     <div class="home-swt-text"><HomeText/></div>
+                </div>
+                <div className="row">
+                    <div class="home-swt-button"><Button className = "pitch-button" buttonStyle='btn--outline--large' page='pitch'>VIEW THE PITCH</Button></div>
                 </div>
             </div>
         </div>
