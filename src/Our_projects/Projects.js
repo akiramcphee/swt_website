@@ -31,6 +31,14 @@ export default function Projects() {
             <div className="row">
                 <div className="col-12">
                     <div className = "read-more">
+                        <i class="fas fa-chevron-up"></i>
+                        <h2>Click on any of the images above to see our progress log</h2>
+                    </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-12">
+                    <div className = "read-more">
                         <h2>Learn about our sensors</h2>
                         <i class="fas fa-chevron-down"></i>
                     </div>

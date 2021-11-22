@@ -5,24 +5,24 @@
             "background": "speech.jpeg",
             "description": "Classify throat vibration samples to words of the NATO Phonetic Alphabet",
             "full-description": "Spectrograms are a useful way to visualise data in the form of a colourmap. A spectrogram is a visual way of representing the signal strength, or “loudness”, of a signal over time at various frequencies present in a particular waveform. Not only can one see whether there is more or less energy at, for example, 2 Hz vs 10 Hz, but one can also see how energy levels vary over time.",
-            "week_1": {
-                "date": "June 2021",
-                "overview": "We smashed together some filters, got really good at CSV and Jupyter (helped in MTRN2500 thank god) and also boosted our git",
+            "1": {
+                "date": "May 2021",
+                "overview": "A particular focus has been optimising the placement of the sensor on the neck of the patient, such that it monitors neck movements reliably and accurately. The piezoresistive sensors show promise in detecting very small vibrations. A major challenge is posed by the natural oscillation of the Adam's Apple on male volunteers.",
                 "image": "Getting_scammed.JPG"
             },
-            "week_2":{
+            "2":{
                 "date":"July 2021",
-                "overview":"More of the same but now we look at Machine learning and convulutional neural networks how lovely",
-                "image": "stuff.jpg"
+                "overview":"Progress has been made on using software the analyse the data acquired by the piezoresistive sensors. Bandpass filters help to eliminate excess noise due to equipment and unwanted neck movements, and generate a Fast Fourier Transform (FFT) of the signal. The FFTs can then be used to generate spectrograms. Future work will look at developing a Convolutional Neural Network to classify the spectrograms.",
+                "image": "week_1.png"
             },
-            "week_3":{
+            "3":{
                 "date":"August 2021",
-                "overview":"哎哟",
-                "image": "stuff.jpg"
+                "overview":"Successfully trained a Convolutional Neural Network (CNN) to classify the spectrograms. It works by comparing the incomping data to a databank of words, each of which has a corresponding collection of spectrograms. The CNN can 'match' the data with 86% certainty. The CNN can be imporved by expanding the database of existing spectrograms.",
+                "image": "week_5.png"
             },       
-            "week_4":{
-                "date":"September 2021",
-                "overview":"哎哟",
+            "4":{
+                "date":"October 2021",
+                "overview":"A new triboelectric sensor is being tested in the labs. As its currrent form is too rigid to apply to the neck, its reliability is being verified by placing it on top of a speaker, and then playing audio files through the speaker. Software developed for the piezoresistive sensors can still be used, although it will be beneficial to look into using Short Time Fourier Transforms (STFTs) for more accurate analysis.",
                 "image": "stuff.jpg"
             }
         },
@@ -31,51 +31,51 @@
             "background": "glove.jpeg",
             "description": "Detect finger movements for rehabilitative and sign language purposes",
             "full-description": "The Test Database will be drawn from the data collected from Lab 2 (Andrew as test subject). The choice of this lab in particular is simply due to its large quantity of samples (41 samples) relative to Labs 1 (8 samples) and Lab 3 (20 samples). The variety of different waveforms collected will serve as the basis from which variations are to be fabricated.",
-            "week_1": {
+            "1": {
                 "date": "June 2021",
-                "overview": "Test glove",
-                "image": "Getting_scammed.JPG"
+                "overview": "Dr Peng has investigated the idea of developing a smart glove by applying the piezoresistive sensors to the dorsal aspect of the fingers. The sensor signals are collected by a bluetooth module, which communicates with a mobile application to display the signals in a graphical format. Future work could involve making the sesors more comfortable to wear, and improving the capabilities of the mobile application.",
+                "image": "penglove.jpeg"
             },
-            "week_2":{
-                "date":"July 2021",
-                "overview":"j",
-                "image": "stuff.jpg"
-            },
-            "week_3":{
-                "date":"August 2021",
-                "overview":"哎哟",
-                "image": "stuff.jpg"
-            },       
-            "week_4":{
+            "2":{
                 "date":"September 2021",
-                "overview":"哎哟",
-                "image": "week_1.png"
+                "overview":"Students have been testing the piezoresitsive sensors at home, trying to verify whether the sensors are capable of determining the degree of flexion subtended at the Proximal Inter-Phalangeal (PIP) joint, known more commonly as the 2nd knuckle. Challenges of home testing include inconsistent experimental setups and expected equipment behvaviour.",
+                "image": "swinn_glove.png"
+            },
+            "3":{
+                "date":"November 2022",
+                "overview":"",
+                "image": "unsw_logo.png"
+            },       
+            "4":{
+                "date":"March 2022",
+                "overview":"",
+                "image": "unsw_logo.png"
             }
         },
         "pulse":{
             "full-name": "Pulse",
             "background": "pulse.jpeg",
-            "description": "Detect Pulse of an ideally living human, then play with an exclusive android app",
+            "description": "Detect and monitor the activity of the radial pulse",
             "full-description": "Pandas doesn't seem to like hyphens or numbers as the headings, so they are replaced by an underscore (x_axis as opposed to x-axis) and '2' and '4' are replaced by 'channel_2' and 'channel_4' respectively.",
-            "week_1": {
+            "1": {
                 "date": "June 2021",
-                "overview": "TEst pulse",
-                "image": "Getting_scammed.JPG"
+                "overview": "Dr Peng has verified that the piezoresistive sensors are sensitive enough to detect a signal from the radial pulse. The signal can be acquired by a bluetooth module, and communicated to a mobile application. The sensor needs to be held against the radial pulse with a significant amount of pressure, and this pressure threshold is dependent on each volunteer. Future work should aim to make this application process more universal.",
+                "image": "unsw_logo.png"
             },
-            "week_2":{
-                "date":"July 2021",
-                "overview":"哎哟",
-                "image": "week_1.png"
+            "2":{
+                "date":"October 2021",
+                "overview":"Students have been testing the piezoresistive sensors at home, aiming to determine an optimised setup for pulse detection which is comfortable and independent of the user. The mobile application provided Dr Peng is still being used to monitor the signal acquired by the sensor.",
+                "image": "alice_pulse.png"
             },
-            "week_3":{
-                "date":"August 2021",
-                "overview":"哎哟",
-                "image": "week_5.png"
+            "3":{
+                "date":"December 2022",
+                "overview":"",
+                "image": "unsw_logo.png"
             },       
-            "week_4":{
-                "date":"September 2021",
-                "overview":"哎哟",
-                "image": "stuff.jpg"
+            "4":{
+                "date":"March 2022",
+                "overview":"",
+                "image": "unsw_logo.png"
             }
         }
     }
