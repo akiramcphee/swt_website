@@ -4,7 +4,7 @@ import React from 'react'
 import HomeText from '../components/Homepage_Title/HomeText'
 import './Home.css'
 import team from '../images/team.jpg'
-import { Button } from '../components/Button';
+import { Button } from '../components/Button/Button';
 
 console.log(team);
 
