@@ -17,35 +17,35 @@ export default function Profiles() {
 						<div className = "profile_background">
 							<div className = "row">
 								<div className="col-4">
-									<h1 className = "Team">Chunder</h1>
+									<h2 className = "Team">Prof. Chun H. Wang</h2>
 								</div>
 								<div className="col-4">
-									<h1 className = "Team">Yuyan</h1>
+									<h2 className = "Team">Dr Shuhua Peng</h2>
 								</div>
 								<div className="col-4">
-									<h1 className = "Team">Spectron</h1>
-								</div>
-							</div>
-							<div className = "row">
-								<div className="col-4">
-									<h1 className = "Team">Student</h1>
-								</div>
-								<div className="col-4">
-									<h1 className = "Team">Student</h1>
-								</div>
-								<div className="col-4">
-									<h1 className = "Team">Student</h1>
+									<h2 className = "Team">Yuyan Yu</h2>
 								</div>
 							</div>
 							<div className = "row">
 								<div className="col-4">
-									<h1 className = "Team">Student</h1>
+									<h2 className = "Team">Student</h2>
 								</div>
 								<div className="col-4">
-									<h1 className = "Team">Student</h1>
+									<h2 className = "Team">Student</h2>
 								</div>
 								<div className="col-4">
-									<h1 className = "Team">Student</h1>
+									<h2 className = "Team">Student</h2>
+								</div>
+							</div>
+							<div className = "row">
+								<div className="col-4">
+									<h2 className = "Team">Student</h2>
+								</div>
+								<div className="col-4">
+									<h2 className = "Team">Student</h2>
+								</div>
+								<div className="col-4">
+									<h2 className = "Team">Student</h2>
 								</div>
 							</div>
 						</div>
