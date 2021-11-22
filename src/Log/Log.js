@@ -17,20 +17,20 @@ export default function Log(props) {
 			<div className="row">
 				<div class="container">
 					<div className = "col-6">
-							<LogPost project= {projectName} week = "week_4"/>
+							<LogPost project= {projectName} post = "4"/>
 					</div>
 					<div className = "col-6">
-							<LogPost project= {projectName} week = "week_3"/>
+							<LogPost project= {projectName} post = "3"/>
 					</div>
 					</div>
 				</div>
 				<div className="row">
 				<div class="container">
 					<div className = "col-6">
-							<LogPost project= {projectName} week = "week_2"/>
+							<LogPost project= {projectName} post = "2"/>
 					</div>
 					<div className = "col-6">
-							<LogPost project= {projectName} week = "week_1"/>
+							<LogPost project= {projectName} post = "1"/>
 					</div>
 					</div>
 				</div>
