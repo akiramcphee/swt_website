@@ -1,5 +1,5 @@
 .navbar {
-  background: rgb(6, 18, 71);
+  background: #476D85;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -36,6 +36,7 @@
   color: white;
   margin: 40px;
 }
+
 .text-link-to-home{
   text-decoration: none;
 }
@@ -81,7 +82,7 @@
   display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 550px) {
   .NavbarItems {
     position: relative;
   }

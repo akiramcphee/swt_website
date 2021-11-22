@@ -1,6 +1,5 @@
 import React from 'react'
 import './Profiles.css'
-import Navbar from '../components/Navbar'
 
 export default function Profiles() {
 	return (

@@ -22,6 +22,10 @@ function App() {
           <Route path='/log/glove' exact component={Log} element={< Log project = "glove"/>}/>
           <Route path='/log/Pulse' exact component={Log} element={< Log project = "pulse"/>}/>
           <Route path='/profiles' exact component={Profiles} element={<Profiles />}/>
+          <Route path='/join' exact component={() => {
+            window.location.href = "https://www.challeng.unsw.edu.au/challeng-projects/smart-wearable-tech";
+            return null;
+          }}/>
         </Routes>
       </Router>
     </div>

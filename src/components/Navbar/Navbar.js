@@ -11,7 +11,7 @@ function Navbar() {
   const closeMobileMenu = () => setClick(false);
 
   const showButton = () => {
-    if (window.innerWidth <= 960) {
+    if (window.innerWidth <= 550) {
       setButton(false);
     } else {
       setButton(true);
@@ -70,8 +70,7 @@ function Navbar() {
 
             <li>
               <Link
-                to={{pathname: "https://www.challeng.unsw.edu.au/challeng-projects/smart-wearable-tech"}}
-                target="_blank"
+                to="\join"
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
