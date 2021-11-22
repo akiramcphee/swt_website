@@ -31,7 +31,8 @@ export default function Projects() {
             <div className="row">
                 <div className="col-12">
                     <div className = "read-more">
-                        <h2>Scroll Down to Read More</h2>
+                        <h2>Learn about our sensors</h2>
+                        <i class="fas fa-chevron-down"></i>
                     </div>
                 </div>
             </div>
