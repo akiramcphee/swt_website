@@ -1,7 +1,7 @@
 import React from 'react'
-import './ProfileCard.css'
+import './ProfileCardAcademics.css'
 
-export default function ProfileCard(props) {
+export default function ProfileCardAcademics(props) {
     return (
         <div className = "profiles ">
             <div className = "profile-image-head">   
@@ -11,9 +11,6 @@ export default function ProfileCard(props) {
                 <h3 className = "profile-name">
                     {props.name}
                 </h3>
-                <p className= "profile-degree">
-                    {props.degree}
-                </p>
                 <p className= "profile-role">
                     {props.role}
                 </p>
