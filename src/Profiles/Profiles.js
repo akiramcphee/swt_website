@@ -37,9 +37,10 @@ export default function Profiles() {
 		 					</div>
 							<div className="col-4">
 							 	<ProfileCardStudents name='Andrew Kim ' degree = 'Mechatronics/Biomedical Engineering' role = 'Software Team' image = {egyptcat}/>
-	 						</div>		 						<div className="col-4">
+	 						</div>		 						
+							<div className="col-4">
 								<ProfileCardStudents name='Akira McPhee ' degree = 'Mechatronics/Biomedical Engineering' role = 'Software Team' image = {egyptcat}/>
-		 					</div>
+							 </div>
 		 				</div>
 		 				<div className = "row">
 						 	<div className="col-4">

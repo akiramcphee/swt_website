@@ -19,7 +19,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' exact component={Home} element={<Home />}/>
-          <Route path='/about' element={<About />}/>
+          <Route path='/keht' element={<About />}/>
           <Route path='/sensors' exact component={Projects} element={<Projects/>}/>
           <Route path='/log/speech' exact component={Log} element={< Log project = "speech"/>}/>
           <Route path='/log/glove' exact component={Log} element={< Log project = "glove"/>}/>

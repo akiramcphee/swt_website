@@ -1,28 +1,57 @@
 import React from 'react'
 import './About.css'
-import osckilloscope from '../images/about_image.jpeg'
-import unswLogo from '../images/unsw_logo.png'
+import osckilloscope from '../images/egypt_cat.jpg'
 
 console.log(osckilloscope);
 
 export default function About() {
   return (
-    <div>
+    <div class="about">
       <div className = "row">
-        <div className = "col-6">
+        <div className = "col-4">
           <img className = "about-image" src={osckilloscope} alt="osckilloscope"></img>
         </div>
-        <div className = "col-6">
+        <div className = "col-4">
           <div className ="about_text">
-            <h1 className = "about-main">About</h1>
-            <h1 className = "about-main">Smart Wearable Tech</h1>
-            <h3>Mission Statement</h3>
+            <h1 className = "about-main">the keht in the het</h1>
+            <p>my name is keht</p>
+            <p>i hav da might</p>
+            <p>for egypt keht</p>
+            <p>will own dis site</p>
+            <p>i watch sensaw</p>
+            <p>n see it lie</p>
+            <p>and wen it doz</p>
+            <p>i watch you cri</p>
           </div>
+        </div>
+        <div className = "col-4">
+          <img className = "about-image" src={osckilloscope} alt="osckilloscope"></img>
         </div>
       </div>
       <div className = "row">
-        <div className = "unsw-logo">
-        <img className = "unsw-logo-img" src={unswLogo}></img>
+        <div className = "col-2">
+          <img src="http://nekofont.upat.jp/font/l/109.jpg"/>
+        </div>
+        <div className = "col-1">
+         <img src="http://nekofont.upat.jp/font/l/101.jpg"/>
+        </div>
+        <div className = "col-1">
+          <img src="http://nekofont.upat.jp/font/l/111.jpg"/>
+        </div>
+        <div className = "col-2">
+          <img src="http://nekofont.upat.jp/font/l/119.jpg"/>
+        </div>
+        <div className = "col-2">
+          <img src="http://nekofont.upat.jp/font/l/109.jpg"/>
+        </div>
+        <div className = "col-1">
+         <img src="http://nekofont.upat.jp/font/l/101.jpg"/>
+        </div>
+        <div className = "col-1">
+          <img src="http://nekofont.upat.jp/font/l/111.jpg"/>
+        </div>
+        <div className = "col-2">
+          <img src="http://nekofont.upat.jp/font/l/119.jpg"/>
         </div>
       </div>
     </div>

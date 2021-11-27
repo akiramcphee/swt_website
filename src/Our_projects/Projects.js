@@ -2,9 +2,7 @@ import React from 'react'
 import Project_cards from '../components/Project_cards/Project_cards'
 import BigProjectCard from '../components/BigProjectCard/BigProjectCard';
 import './Projects.css'
-
-
-
+import { Link } from 'react-router-dom'
 
 
 export default function Projects() {
@@ -20,7 +18,9 @@ export default function Projects() {
             <div className="row">
                 <div className="col-12">
                     <div className = "read-more">
+                        <Link className="read-more-text" to='../keht'>
                         <h2>Learn about our sensors</h2>
+                        </Link>
                         <i class="fas fa-chevron-down"></i>
                     </div>
                 </div>

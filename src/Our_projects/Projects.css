@@ -24,15 +24,18 @@
   .read-more{
     text-align: center;
     margin: auto;
-
     margin-top: 60px;
     margin-bottom: 60px;
     padding-bottom: 20px;
-
     color: rgba(0, 23, 126);
     width: 25%;
-
   }
+
+.read-more-text, .read-more-text:visited, .read-more-text:hover{
+  color: rgba(0, 23, 126);
+  text-decoration: none;
+}
+
   .row::after {
     content: "";
     clear: both;
