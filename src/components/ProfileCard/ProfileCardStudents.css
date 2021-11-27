@@ -2,8 +2,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 20%;
-    margin: auto;
+    width: 100%;
+    margin-bottom: 30px;
 }
 .profile-image {
     width: 300px;
@@ -15,4 +15,12 @@
 }
 .profile-name {
     color: rgb(6, 18, 71);
+}
+
+.profile-role {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: auto;
 }

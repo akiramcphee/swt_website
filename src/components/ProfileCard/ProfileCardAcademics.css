@@ -2,8 +2,10 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 20%;
-    margin: auto;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    
 }
 .profile-image {
     width: 300px;
@@ -15,4 +17,9 @@
 }
 .profile-name {
     color: rgb(6, 18, 71);
+    padding: 5px;
+}
+
+.profile-degree {
+    padding: 5px;
 }
