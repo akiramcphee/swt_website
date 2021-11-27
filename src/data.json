@@ -77,6 +77,58 @@
                 "overview":"",
                 "image": "unsw_logo.png"
             }
+        },
+        "piezo":{
+            "full-name": "Piezoresistive Sensor",
+            "background": "piezo.jpg",
+            "description": "Detect and monitor the activity of the radial pulse",
+            "full-description": "Piezoresistive Sensors",
+            "1": {
+                "date": "June 2021",
+                "overview": "Dr Peng has verified that the piezoresistive sensors are sensitive enough to detect a signal from the radial pulse. The signal can be acquired by a bluetooth module, and communicated to a mobile application. The sensor needs to be held against the radial pulse with a significant amount of pressure, and this pressure threshold is dependent on each volunteer. Future work should aim to make this application process more universal.",
+                "image": "unsw_logo.png"
+            },
+            "2":{
+                "date":"October 2021",
+                "overview":"Students have been testing the piezoresistive sensors at home, aiming to determine an optimised setup for pulse detection which is comfortable and independent of the user. The mobile application provided Dr Peng is still being used to monitor the signal acquired by the sensor.",
+                "image": "alice_pulse.png"
+            },
+            "3":{
+                "date":"December 2022",
+                "overview":"",
+                "image": "unsw_logo.png"
+            },       
+            "4":{
+                "date":"March 2022",
+                "overview":"",
+                "image": "unsw_logo.png"
+            }
+        },
+        "tribo":{
+            "full-name": "Triboelectric Sensor",
+            "background": "tribo.jpg",
+            "description": "Detect and monitor the activity of the radial pulse",
+            "full-description": "Triboelectric sensors ",
+            "1": {
+                "date": "June 2021",
+                "overview": "Dr Peng has verified that the piezoresistive sensors are sensitive enough to detect a signal from the radial pulse. The signal can be acquired by a bluetooth module, and communicated to a mobile application. The sensor needs to be held against the radial pulse with a significant amount of pressure, and this pressure threshold is dependent on each volunteer. Future work should aim to make this application process more universal.",
+                "image": "unsw_logo.png"
+            },
+            "2":{
+                "date":"October 2021",
+                "overview":"Students have been testing the piezoresistive sensors at home, aiming to determine an optimised setup for pulse detection which is comfortable and independent of the user. The mobile application provided Dr Peng is still being used to monitor the signal acquired by the sensor.",
+                "image": "alice_pulse.png"
+            },
+            "3":{
+                "date":"December 2022",
+                "overview":"",
+                "image": "unsw_logo.png"
+            },       
+            "4":{
+                "date":"March 2022",
+                "overview":"",
+                "image": "unsw_logo.png"
+            }
         }
     }
     

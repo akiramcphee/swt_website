@@ -27,20 +27,14 @@ export default function Projects() {
             </div>
             <div className="row">
                 <div className="col-12">
-                    <BigProjectCard projectName='speech'/>
+                    <BigProjectCard projectName='piezo'/>
                 </div>
             </div>
             <div className="row">
                 <div className="col-12">
-                    <BigProjectCard projectName='glove'/>
+                    <BigProjectCard projectName='tribo'/>
                 </div>
             </div>
-            <div className="row">
-                <div className="col-12">
-                    <BigProjectCard projectName='pulse'/>
-                </div>
-            </div>
-
 		</div>
     )
 }
