@@ -1,9 +1,10 @@
 import React from 'react';
 import './HomeText.css';
 
-export default function HomeText() {
+export default function HomeText(props) {
     return (
-        <div class='TitleBox'>
+
+           <div class='TitleBox'>
             <div className = "unsw_subtitle">
                 <h4>
                     University of New South Wales
@@ -15,5 +16,6 @@ export default function HomeText() {
                 </h1>
             </div>
         </div>
+
     )
 }

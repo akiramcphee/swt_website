@@ -4,11 +4,11 @@
     margin-right: auto;
     width: 20%;
 }
-h2 {
+.heading {
     margin: 10px;
     color: #476d85;
 }
-p {
+.headingText {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;

@@ -5,13 +5,15 @@
 
 .back-home { 
   position: relative; 
-  height: 100vh;
-  width: 100%;
+  height: auto;
+  width: 100vw;
   align-items: center;
   justify-content: center;
   background-image: url("../images/team.jpg");
   background-size: cover;
+  margin-bottom: 5vh;
 }
+
 .back-home::before {    
   content: "";
   position: absolute;
@@ -25,18 +27,55 @@
 .home-swt-text {
   position: relative;
   color: rgb(255, 255, 255);
-  padding: 20px;
-  margin: 20px;
-  margin-top: 8%;
-  font-size: 40px;
-  font-weight: 600;
+  padding: 2vw;
+  margin-top: 15vw;
+  margin-bottom: 15vw;
   opacity: 1;
+}
+
+.home-swt-button{
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+  position: relative; 
+
+  margin-top: 0;
+  text-align: center;
+
 }
 
 
 .header {
   border: 1px solid red;
   padding: 5px;
+}
+
+
+.our_projects_description{
+  text-align: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  margin-left: 20vw;
+  font-size: max(15px, 1.5vw)
+}
+
+.cards:hover {
+  transform: scale(1.05);
+  transition: all 0.2s ease-out;
+}
+
+
+.log-instructions{
+  position: center;
+  text-align: center;
+  margin: 25vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  padding-bottom: 5vh;
+  color: rgba(0, 23, 126);
+  width: 50%;
+  font-size: min(2vw, 15px);
 }
 
 

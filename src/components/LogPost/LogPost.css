@@ -1,8 +1,11 @@
 
 .background-border{
-    width: 90%;
+    height: 400px;
     padding:20px;
-    margin:20px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 70%;
     border: 1px solid rgba(0, 0, 0, 0.25);
     background-color: white;
     border-radius: 5px;
@@ -12,16 +15,26 @@
 
 .logPost_description, .logPost_date {
     margin: 5px;
+    font-size: max(1.2vw, 15px) 
 }
 
 .logPost_date {
     color: rgb(240, 194, 107);
+    font-size: max(1.5vw, 20px) 
 }
 
 .log-image{
-    padding: 30px;
+    padding: 2vmin;
+    display: flex;
+    justify-content: center;
     filter: none;
     filter: brightness(100%);
     opacity: 2;
+    border-radius: 5px;
+}
+
+.log-image-size{
+    width: 50%;
+    height: auto;
     border-radius: 5px;
 }

@@ -1,13 +1,10 @@
 import React from 'react'
-import ProjectCards from '../components/ProjectCards/ProjectCards'
+import Project_cards from '../components/Project_cards/Project_cards'
+import BigProjectCard from '../components/BigProjectCard/BigProjectCard';
 import './Projects.css'
-import speechImage from '../images/speech.jpeg'
-import gloveImage from '../images/glove.jpeg'
-import pulseImage from '../images/pulse.jpeg'
 
-console.log(speechImage);
-console.log(gloveImage);
-console.log(pulseImage);
+
+
 
 
 export default function Projects() {
@@ -20,20 +17,24 @@ export default function Projects() {
                     <p className = "our_projects_description">Wearable technologies have the potential to revolutionise many different aspects of our lives. Here are some we have explored.</p>               
             </div>
             
-			<div className="row">
-                <div className="col-4">
-                    <ProjectCards projectName='speech'/>
-                    
-                </div>
-                <div className="col-4">
-                    <ProjectCards projectName='glove'/>
-                </div>
-
-                <div className="col-4">
-                    <ProjectCards projectName='pulse'/>
+            <div className="row">
+                <div className="col-12">
+                    <div className = "read-more">
+                        <h2>Learn about our sensors</h2>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
                 </div>
             </div>
-
+            <div className="row">
+                <div className="col-12">
+                    <BigProjectCard projectName='piezo'/>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-12">
+                    <BigProjectCard projectName='tribo'/>
+                </div>
+            </div>
 		</div>
     )
 }
