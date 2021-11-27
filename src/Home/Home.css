@@ -5,12 +5,13 @@
 
 .back-home { 
   position: relative; 
-  height: 100%;
+  height: auto;
   width: 100vw;
   align-items: center;
   justify-content: center;
   background-image: url("../images/team.jpg");
   background-size: cover;
+  margin-bottom: 5vh;
 }
 
 .back-home::before {    
@@ -27,8 +28,8 @@
   position: relative;
   color: rgb(255, 255, 255);
   padding: 2vw;
-  margin: 2vw;
-  margin-top: 5%;
+  margin-top: 15vw;
+  margin-bottom: 15vw;
   opacity: 1;
 }
 
