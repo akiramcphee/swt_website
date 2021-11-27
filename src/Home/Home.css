@@ -1,17 +1,16 @@
 * {
   box-sizing: border-box;
-	margin: 0;
 }
 
 .back-home { 
   position: relative; 
   height: auto;
   width: 100vw;
+  margin-bottom: 10vh;
   align-items: center;
   justify-content: center;
   background-image: url("../images/team.jpg");
   background-size: cover;
-  margin-bottom: 5vh;
 }
 
 .back-home::before {    
@@ -28,8 +27,6 @@
   position: relative;
   color: rgb(255, 255, 255);
   padding: 2vw;
-  margin-top: 15vw;
-  margin-bottom: 15vw;
   opacity: 1;
 }
 
@@ -54,8 +51,8 @@
 
 .our_projects_description{
   text-align: center;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
   margin-left: 20vw;
   font-size: max(15px, 1.5vw)
 }
