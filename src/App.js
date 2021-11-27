@@ -26,8 +26,8 @@ function App() {
           <Route path='/log/Pulse' exact component={Log} element={< Log project = "pulse"/>}/>
           <Route path='/profiles' exact component={Profiles} element={<Profiles />}/>
         </Routes>
-        <Footer/>
       </Router>
+      <Footer/>
     </div>
   );
 }

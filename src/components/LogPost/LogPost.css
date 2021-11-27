@@ -15,14 +15,16 @@
 
 .logPost_description, .logPost_date {
     margin: 5px;
+    font-size: max(1.2vw, 15px) 
 }
 
 .logPost_date {
     color: rgb(240, 194, 107);
+    font-size: max(1.5vw, 20px) 
 }
 
 .log-image{
-    padding: 20px;
+    padding: 2vmin;
     display: flex;
     justify-content: center;
     filter: none;
