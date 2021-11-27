@@ -1,5 +1,7 @@
 import React from 'react'
 import './Footer.css'
+import logo from './logo_white.svg'
+
 
 export default function Footer() {
 	return (
@@ -9,7 +11,7 @@ export default function Footer() {
 					<div className="footer-logo">
 					<img 
 						className='swt-logo-footer' 
-						src='../../logo_white.svg'
+						src={logo}
 						alt='Smart Wearable Tech logo'
 					/>
 					</div> 
