@@ -55,6 +55,12 @@
   text-align: center;
   margin: 10vh;
   margin-left: 20vw;
+  font-size: max(15px, 1.5vw)
+}
+
+.cards:hover {
+  transform: scale(1.05);
+  transition: all 0.2s ease-out;
 }
 
 
@@ -67,7 +73,7 @@
   padding-bottom: 5vh;
   color: rgba(0, 23, 126);
   width: 50%;
-  font-size: 2vw;
+  font-size: min(2vw, 15px);
 }
 
 
