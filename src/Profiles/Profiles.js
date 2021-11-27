@@ -1,7 +1,6 @@
 import React from 'react'
 import './Profiles.css'
 //import Navbar from '../components/Navbar/Navbar'
-import ProfileCard from '../components/ProfileCard/ProfileCard'
 import egyptcat from '../images/egypt_cat.jpg'
 
 export default function Profiles() {

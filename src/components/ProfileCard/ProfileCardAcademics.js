@@ -10,7 +10,7 @@ export default function ProfileCardAcademics(props) {
             <div className = "profile-text">
                 <h3 className = "profile-name">
                     {props.name}
-                </h3>
+                </h3>  
                 <p className= "profile-role">
                     {props.role}
                 </p>
