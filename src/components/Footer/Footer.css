@@ -1,8 +1,8 @@
 .footer{
     bottom: 0px;
     background-color: rgb(0, 10, 54);
-    height: 35vmin;
-    margin-top: 2vmin;
+    height: 31vmin;
+    position: bottom;
 }
 
 .swt-footer-text{
@@ -20,6 +20,6 @@
     padding-top: 3vmin;
 }
 .swt-logo-footer{
-    width: 25vmin;
-    height: auto;
+    width: auto;
+    height: 25vmin;
 }

@@ -20,6 +20,7 @@
 
 .logPost_date {
     color: rgb(240, 194, 107);
+    font-size: max(1.5vw, 20px) 
 }
 
 .log-image{
@@ -33,7 +34,7 @@
 }
 
 .log-image-size{
-    width: 85%;
+    width: 50%;
     height: auto;
     border-radius: 5px;
 }
