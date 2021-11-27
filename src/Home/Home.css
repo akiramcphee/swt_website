@@ -5,13 +5,14 @@
 
 .back-home { 
   position: relative; 
-  height: auto;
+  height: 100%;
   width: 100vw;
   align-items: center;
   justify-content: center;
   background-image: url("../images/team.jpg");
   background-size: cover;
 }
+
 .back-home::before {    
   content: "";
   position: absolute;

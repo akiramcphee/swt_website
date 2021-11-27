@@ -5,14 +5,14 @@
 .unsw_subtitle {
     text-align: center;
     font-weight: 500;
-    font-size: 4vw;
+    font-size: min(4vw, 30px);
     margin-top: 5px;
     color: white;
 }
 .homeText_swt {
     text-align: center;
     font-weight: 500;
-    font-size: 5vw;
+    font-size: min(4vw, 40px);
     margin-top: 2vh;
     margin-bottom: 2vh;
     color: white;
