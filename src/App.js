@@ -20,7 +20,7 @@ function App() {
         <Routes>
           <Route path='/' exact component={Home} element={<Home />}/>
           <Route path='/about' element={<About />}/>
-          <Route path='/projects' exact component={Projects} element={<Projects/>}/>
+          <Route path='/sensors' exact component={Projects} element={<Projects/>}/>
           <Route path='/log/speech' exact component={Log} element={< Log project = "speech"/>}/>
           <Route path='/log/glove' exact component={Log} element={< Log project = "glove"/>}/>
           <Route path='/log/Pulse' exact component={Log} element={< Log project = "pulse"/>}/>

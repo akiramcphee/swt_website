@@ -20,7 +20,7 @@
 
 .navbar-logo {
   justify-self: start;
-  margin-left: 0px;
+  margin-left: 10px;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
@@ -34,7 +34,7 @@
 
 .swt-text{
   color: white;
-  margin: 40px;
+  margin: 30px;
 }
 .text-link-to-home{
   text-decoration: none;
@@ -48,7 +48,7 @@
   text-align: center;
   width: 60vw;
   justify-content: end;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .nav-item {
