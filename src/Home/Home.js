@@ -18,18 +18,16 @@ export default function Home() {
                 <div className="row">
                     <div class="home-swt-text"><HomeText/></div>
                 </div>
-                <div className="row">
-                    <div class="home-swt-button"><Button className = "pitch-button" buttonStyle='btn--outline--large' page='pitch'>VIEW THE PITCH</Button></div>
-                </div>
                 
             </div>
+                <p className = "our_projects_description">Wearable technologies have the potential to revolutionise many different aspects of our lives. Here are some we have explored.</p>
             <div className="row">
-                <div className="col-12">
+                {/* <div className="col-12">
                     <div className = "read-more">
                         <i class="fas fa-chevron-up"></i>
                         <h2>Our Projects</h2>
                     </div>
-                </div>
+                </div> */}
             </div>
             <div className="row">
                 <div className="col-4">

@@ -50,6 +50,12 @@
   padding: 5px;
 }
 
+.our_projects_description{
+  text-align: center;
+  margin: 10px;
+  margin-left: 20px;
+}
+
 
 .row::after {
   content: "";
