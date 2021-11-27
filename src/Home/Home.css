@@ -9,6 +9,7 @@
   margin-bottom: 10vh;
   align-items: center;
   justify-content: center;
+  vertical-align: middle;
   background-image: url("../images/team.jpg");
   background-size: cover;
 }
@@ -27,6 +28,8 @@
   position: relative;
   color: rgb(255, 255, 255);
   padding: 2vw;
+  margin-top: 12vw;
+  margin-bottom: 12vw;
   opacity: 1;
 }
 
