@@ -16,24 +16,32 @@ export default function Log(props) {
 			</div>
 			<div className="row">
 				<div class="container">
-					<div className = "col-6">
+					<div className = "col-12">
 							<LogPost project= {projectName} post = "4"/>
 					</div>
-					<div className = "col-6">
+				</div>
+			</div>
+			<div className="row">
+				<div class="container">
+					<div className = "col-12">
 							<LogPost project= {projectName} post = "3"/>
 					</div>
-					</div>
 				</div>
-				<div className="row">
+			</div>
+			<div className="row">
 				<div class="container">
-					<div className = "col-6">
+					<div className = "col-12">
 							<LogPost project= {projectName} post = "2"/>
 					</div>
-					<div className = "col-6">
+				</div>
+			</div>
+			<div className="row">
+				<div class="container">
+					<div className = "col-12">
 							<LogPost project= {projectName} post = "1"/>
 					</div>
-					</div>
 				</div>
+			</div>
 		</div>
 	)
 }
