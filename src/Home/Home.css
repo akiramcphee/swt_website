@@ -57,6 +57,19 @@
 }
 
 
+.log-instructions{
+  position: center;
+  text-align: center;
+  margin: 25vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  padding-bottom: 5vh;
+  color: rgba(0, 23, 126);
+  width: 50%;
+  font-size: 2vw;
+}
+
+
 .row::after {
   content: "";
   clear: both;

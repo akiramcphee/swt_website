@@ -42,7 +42,7 @@ export default function Home() {
             </div>
             <div className="row">
                 <div className="col-12">
-                    <div className = "read-more">
+                    <div className = "log-instructions">
                         <i class="fas fa-chevron-up"></i>
                         <h2>Click on any of the images above to see our progress log</h2>
                     </div>
