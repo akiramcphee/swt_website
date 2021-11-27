@@ -3,7 +3,7 @@ import './HomeText.css';
 
 export default function HomeText(props) {
     return (
-        <div class='TitleBox'>
+
            <div class='TitleBox'>
             <div className = "unsw_subtitle">
                 <h4>
@@ -16,6 +16,6 @@ export default function HomeText(props) {
                 </h1>
             </div>
         </div>
-        </div>
+
     )
 }
