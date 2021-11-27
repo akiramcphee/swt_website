@@ -69,16 +69,17 @@ function Navbar() {
             </li>
 
             <li>
-              <Link
-                to='/join'
+              <a
+                href='https://www.challeng.unsw.edu.au/challeng-projects/smart-wearable-tech'
+                target='_blank'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
                 JOIN
-              </Link>
+              </a>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline' page='join'>JOIN</Button>}
+          {button && <Button buttonStyle='btn--outline' page='https://www.challeng.unsw.edu.au/challeng-projects/smart-wearable-tech'>JOIN</Button>}
         </div>
       </nav>
     </>
