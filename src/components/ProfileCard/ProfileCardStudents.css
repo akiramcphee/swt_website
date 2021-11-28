@@ -1,26 +1,32 @@
-.profiles {
+.student-profiles {
     align-items: center;
     justify-content: center;
     text-align: center;
     width: 100%;
-    margin-bottom: 30px;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
-.profile-image {
-    width: 300px;
-    height: 300px;
+.student-profile-image {
+    width: 15vw;
+    height: 15vw;
     background-size: cover;
     background-position: center;
     border-radius: 50%;
     border: 5px solid #f0c26b;
+    margin-bottom: 1vh;
 }
-.profile-name {
+.student-profile-name {
     color: rgb(6, 18, 71);
+    font-size: max(20px, 2vw);
+    margin-bottom: 0.5vh;
 }
 
-.profile-role {
+.student-profile-role, .student-profile-degree {
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 100%;
-    margin: auto;
+    width: 95%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    font-size: max(12px, 1.5vw);
 }
