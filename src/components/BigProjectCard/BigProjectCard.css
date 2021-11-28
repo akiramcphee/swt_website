@@ -5,7 +5,7 @@
 
 .big-project-border{
 	width: 90%;
-	height: 400px;
+	height: 450px;
 	background-color: white;
 	margin:auto;
 	margin-top: 30px;
@@ -16,21 +16,25 @@
 }
 
 .big-card-image{
-	width:auto;
+	width: auto;
 	float: right;
-	height: 400px;
-	border-radius: 0 5px 5px 0;
+	height: 450px;
+	border-radius: 5px 5px 5px 5px;
+	display: flex;
+	margin-left: 2vw;
 }
 
 .big-project-name{
-	margin: 40px;
+	margin: 2vh;
 	color: var(--primary_blue);
 	font-size: 30px;
 }
 
 .big-project-cards-brief-description{
-	margin: 30px;
-	margin-left: 60px;
+	margin: 2vw;
+	margin-left: 4vw;
+	font-size: max(18px, 1vw);
+	text-align: justify;
 }
 
 .big-link-text{

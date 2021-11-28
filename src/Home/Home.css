@@ -28,8 +28,8 @@
   position: relative;
   color: rgb(255, 255, 255);
   padding: 2vw;
-  margin-top: 12vw;
-  margin-bottom: 12vw;
+  margin-top: max(10vw, 150px);
+  margin-bottom: max(10vw, 150px);
   opacity: 1;
 }
 
@@ -76,12 +76,20 @@
   position: center;
   text-align: center;
   margin: 25vw;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
-  padding-bottom: 5vh;
+  margin-top: 8vh;
+  margin-bottom: 8vh;
   color: rgba(0, 23, 126);
   width: 50%;
   font-size: min(2vw, 15px);
+}
+
+.log-instructions:hover{
+  transform: scale(1.05);
+  transition: all 0.2s ease-out;
+}
+
+.fa-chevron-up {
+  font-size: 3vh;
 }
 
 
