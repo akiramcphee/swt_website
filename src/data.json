@@ -80,27 +80,28 @@
         },
         "piezo":{
             "full-name": "Piezoresistive Sensor",
-            "background": "piezo.jpg",
+            "background": "piezo.JPG",
             "description": "Detect and monitor the activity of the radial pulse",
-            "full-description": "Piezoresistive Sensors",
+            "theory": "Piezoresitsive sensors produce a varying electrical signal in response to a variable resistance across the sensor. If a piezoresistive sensor is applied to an area which produces mechanical motion, the sensor will stretch with the area and also undergo strain. Even a tiny strain will induce a change in the electrical resistance of the sensor, and thus varies the resistance within an electrical circuit. This follows the piezoresistive effect: a change in the electrical activity of a semiconductor or metal occurs when a mechanical strain is applied.",
+            "fabrication": "Currently, SWT has been using PDMS with Pt only coating sensors for most our lab work across various aplications. The PDMS side of the sensor is plasma oxidised to make is more receptive to tape adhesive, which is used to apply the sensor directly onto the skin.",
             "1": {
-                "date": "June 2021",
-                "overview": "Dr Peng has verified that the piezoresistive sensors are sensitive enough to detect a signal from the radial pulse. The signal can be acquired by a bluetooth module, and communicated to a mobile application. The sensor needs to be held against the radial pulse with a significant amount of pressure, and this pressure threshold is dependent on each volunteer. Future work should aim to make this application process more universal.",
+                "date": "",
+                "overview": "",
                 "image": "unsw_logo.png"
             },
             "2":{
-                "date":"October 2021",
-                "overview":"Students have been testing the piezoresistive sensors at home, aiming to determine an optimised setup for pulse detection which is comfortable and independent of the user. The mobile application provided Dr Peng is still being used to monitor the signal acquired by the sensor.",
-                "image": "alice_pulse.png"
+                "date": "",
+                "overview": "",
+                "image": "unsw_logo.png"
             },
             "3":{
-                "date":"December 2022",
-                "overview":"",
+                "date": "",
+                "overview": "",
                 "image": "unsw_logo.png"
             },       
             "4":{
-                "date":"March 2022",
-                "overview":"",
+                "date": "",
+                "overview": "",
                 "image": "unsw_logo.png"
             }
         },
@@ -108,25 +109,26 @@
             "full-name": "Triboelectric Sensor",
             "background": "tribo.jpg",
             "description": "Detect and monitor the activity of the radial pulse",
-            "full-description": "Triboelectric sensors ",
+            "theory": "Triboelectric sensors produce a varying electrical signal in respsone to a varying distribution of charge across the sensor. If a triboelectric sensor experiences a mechanical disturbance, such as vibration or touch, charge is transferred from a flexible electrode to a mixture of readily-charged microparticles in accordance with the triboelectric effect, creating a momentary inner dipole. Free charges eventually return to their original state as the sensor returns towards its original shape, and so oscillating electronic signal is generated when the the sensor vibrates.",
+            "fabrication": "SWT is testing a triboelectric sensor which Dr Peng has fabricated with other colleagues at UNSW. Currently, it is being tested for responsiveness to sound waves transmitted through a solid medium. It is constructed by sandwiching microparticles between two graphite-coated thin ceramic sheets. ",
             "1": {
-                "date": "June 2021",
-                "overview": "Dr Peng has verified that the piezoresistive sensors are sensitive enough to detect a signal from the radial pulse. The signal can be acquired by a bluetooth module, and communicated to a mobile application. The sensor needs to be held against the radial pulse with a significant amount of pressure, and this pressure threshold is dependent on each volunteer. Future work should aim to make this application process more universal.",
+                "date": "",
+                "overview": "",
                 "image": "unsw_logo.png"
             },
             "2":{
-                "date":"October 2021",
-                "overview":"Students have been testing the piezoresistive sensors at home, aiming to determine an optimised setup for pulse detection which is comfortable and independent of the user. The mobile application provided Dr Peng is still being used to monitor the signal acquired by the sensor.",
-                "image": "alice_pulse.png"
+                "date": "",
+                "overview": "",
+                "image": "unsw_logo.png"
             },
             "3":{
-                "date":"December 2022",
-                "overview":"",
+                "date": "",
+                "overview": "",
                 "image": "unsw_logo.png"
             },       
             "4":{
-                "date":"March 2022",
-                "overview":"",
+                "date": "",
+                "overview": "",
                 "image": "unsw_logo.png"
             }
         }

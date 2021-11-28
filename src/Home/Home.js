@@ -6,6 +6,8 @@ import './Home.css'
 import team from '../images/team.jpg'
 import { Button } from '../components/Button/Button';
 import Project_cards from '../components/Project_cards/Project_cards'
+import { Link } from 'react-router-dom'
+
 
 console.log(team);
 
@@ -20,7 +22,7 @@ export default function Home() {
                 </div>
                 
             </div>
-                <p className = "our_projects_description">Wearable technologies have the potential to revolutionise many different aspects of our lives. Here are some we have explored.</p>
+                <p className = "our_projects_description">Wearable technologies have the potential to revolutionise many different aspects of our lives. Here are some we have explored<Link className="keht" to='../keht'>.</Link> </p>              
             <div className="row">
             </div>
             <div className="row">

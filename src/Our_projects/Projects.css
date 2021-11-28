@@ -7,13 +7,18 @@
     background-color: rgb(235, 235, 235);
     z-index: 999;
   }
+
   .projects{
     margin:20px;
   }
 
-  .our_projects{
+  .our_sensors{
     color: black;
-    margin: 30px;
+    margin-left: 5vw;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: max(3vw, 40px);
+    font-weight: 600;
   }
 
   .our_projects_description{
@@ -30,11 +35,6 @@
     color: rgba(0, 23, 126);
     width: 25%;
   }
-
-.read-more-text, .read-more-text:visited, .read-more-text:hover{
-  color: rgba(0, 23, 126);
-  text-decoration: none;
-}
 
   .row::after {
     content: "";

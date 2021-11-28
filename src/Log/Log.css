@@ -5,14 +5,15 @@
 
 .back { 
   position: relative; 
-  height: 100vh;
-  width: 100%;
+  height: auto;
+  width: auto;
 
   align-items: center;
   justify-content: center;
   background-image: url("../images/stuff.jpg");
   background-size: cover;
 }
+
 .back::before {    
   content: "";
   position: absolute;
@@ -38,7 +39,7 @@
   color: rgb(255, 255, 255);
   padding: 20px;
   margin: 20px;
-  font-size: 40px;
+  font-size: max(3vw, 40px);
   font-weight: 600;
   opacity: 1;
 }
