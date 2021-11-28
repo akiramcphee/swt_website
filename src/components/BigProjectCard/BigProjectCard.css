@@ -18,10 +18,10 @@
 .big-card-image{
 	width: auto;
 	float: right;
-	height: 450px;
-	border-radius: 5px 5px 5px 5px;
+	height: 250px;
+	border-radius: 0px 5px 0px 0px;
 	display: flex;
-	margin-left: 2vw;
+	margin: auto;
 }
 
 .big-project-name{

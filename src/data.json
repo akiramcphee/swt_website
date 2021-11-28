@@ -23,7 +23,7 @@
             "4":{
                 "date":"October 2021",
                 "overview":"A new triboelectric sensor is being tested in the labs. As its currrent form is too rigid to apply to the neck, its reliability is being verified by placing it on top of a speaker, and then playing audio files through the speaker. Software developed for the piezoresistive sensors can still be used, although it will be beneficial to look into using Short Time Fourier Transforms (STFTs) for more accurate analysis.",
-                "image": "stuff.jpg"
+                "image": "tribo.jpg"
             }
         },
         "glove":{
