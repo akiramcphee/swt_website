@@ -3,18 +3,18 @@ import './ProfileCardStudents.css'
 
 export default function ProfileCardStudents(props) {
     return (
-        <div className = "profiles ">
-            <div className = "profile-image-head">   
-                    <img className = "profile-image" src={props.image} alt=""/>
+        <div className = "student-profiles ">
+            <div className = "student-profile-image-head">   
+                    <img className = "student-profile-image" src={props.image} alt=""/>
             </div>
-            <div className = "profile-text">
-                <h3 className = "profile-name">
+            <div className = "student-profile-text">
+                <h3 className = "student-profile-name">
                     {props.name}
                 </h3>
-                <p className= "profile-degree">
+                <p className= "student-profile-degree">
                     {props.degree}
                 </p>
-                <p className= "profile-role">
+                <p className= "student-profile-role">
                     {props.role}
                 </p>
             </div>
