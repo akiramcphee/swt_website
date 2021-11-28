@@ -2,7 +2,6 @@ import React from 'react'
 import Project_cards from '../components/Project_cards/Project_cards'
 import BigProjectCard from '../components/BigProjectCard/BigProjectCard';
 import './Projects.css'
-import { Link } from 'react-router-dom'
 
 
 export default function Projects() {
@@ -11,16 +10,12 @@ export default function Projects() {
 			<div className="row">
                 <div className = "our_projects">
                     <h1>Our Projects</h1>
-                </div>
-                    <p className = "our_projects_description">Wearable technologies have the potential to revolutionise many different aspects of our lives. Here are some we have explored.</p>               
+                </div>            
             </div>
-            
             <div className="row">
                 <div className="col-12">
                     <div className = "read-more">
-                        <Link className="read-more-text" to='../keht'>
                         <h2>Learn about our sensors</h2>
-                        </Link>
                         <i class="fas fa-chevron-down"></i>
                     </div>
                 </div>
