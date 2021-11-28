@@ -1,7 +1,5 @@
 import React from 'react'
 import './Profiles.css'
-//import Navbar from '../components/Navbar/Navbar'
-import egyptcat from '../images/egypt_cat.jpg'
 import Chun from './profileImages/ChunWang.jpg'
 import Shuhua from './profileImages/ShuhuaPeng.png'
 import Yuyan from './profileImages/YuyanYu.jpg'
@@ -11,6 +9,7 @@ import Akira from './profileImages/meowmeow.png'
 import David from './profileImages/DavidDu.jpg'
 import Sutapa from './profileImages/SutapaSaha.jpg'
 import Karan from './profileImages/KaranSingh.jpg'
+import Krishne from './profileImages/KrishneThayaparan.jpg'
 import Megan from './profileImages/MeganWong.jpeg'
 import Alice from './profileImages/AliceZhao.jpg'
 import ProfileCardStudents from '../components/ProfileCard/ProfileCardStudents'
@@ -68,7 +67,7 @@ export default function Profiles() {
 						<div className = "row">
 							<div className="col-4">
 								
-									<ProfileCardStudents name='Krishne Thayaparan' degree = 'Medicine' role = 'Testing Team' image = {egyptcat}/>
+									<ProfileCardStudents name='Krishne Thayaparan' degree = 'Medicine' role = 'Testing Team' image = {Krishne}/>
 							</div>
 
 								<div className="col-4">
