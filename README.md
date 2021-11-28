@@ -1,3 +1,6 @@
-# Website for VIP Smart Wearable Tech
+# ⌨ Website for VIP Smart Wearable Tech ⌨
 
-Website for SWT
+Courtesy of the SWT Software Team:
+- Taylor Chan
+- Andrew Kim
+- Akira McPhee
