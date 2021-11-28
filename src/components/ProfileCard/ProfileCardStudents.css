@@ -3,8 +3,8 @@
     justify-content: center;
     text-align: center;
     width: 100%;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
 }
 .student-profile-image {
     width: 15vw;
@@ -25,8 +25,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 95%;
-    margin-right: 2.5%;
-    margin-left: 2.5%;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
     font-size: max(12px, 1.5vw);
 }

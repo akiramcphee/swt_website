@@ -6,6 +6,7 @@ import Chun from './profileImages/ChunWang.jpg'
 import Shuhua from './profileImages/ShuhuaPeng.png'
 import Yuyan from './profileImages/YuyanYu.jpg'
 import Taylor from './profileImages/TaylorChan.jpg'
+import Andrew from './profileImages/AndrewKim.jpg'
 import Akira from './profileImages/meowmeow.png'
 import David from './profileImages/DavidDu.jpg'
 import Sutapa from './profileImages/SutapaSaha.jpg'
@@ -44,7 +45,7 @@ export default function Profiles() {
 								<ProfileCardStudents name='Taylor Chan' degree = 'Mechatronics/Biomedical Engineering' role = 'Software Team' image = {Taylor}/>
 		 					</div>
 							<div className="col-4">
-							 	<ProfileCardStudents name='Andrew Kim ' degree = 'Mechatronics/Biomedical Engineering' role = 'Software Team' image = {egyptcat}/>
+							 	<ProfileCardStudents name='Andrew Kim ' degree = 'Mechatronics/Biomedical Engineering' role = 'Software Team' image = {Andrew}/>
 	 						</div>		 						
 							<div className="col-4">
 								<ProfileCardStudents name='Akira McPhee ' degree = 'Mechatronics/Biomedical Engineering' role = 'Software Team' image = {Akira}/>
