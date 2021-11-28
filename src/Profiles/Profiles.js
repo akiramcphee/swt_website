@@ -32,32 +32,32 @@ export default function Profiles() {
 		 			<div className = "profile_background">
 		 				<div className = "row">
 		 					<div className="col-4">
-		 						<ProfileCardAcademic name='Chun Wang' degree = '' role = 'Academic' image = {Chun}/>
+		 						<ProfileCardAcademic name='Prof. Chun Wang' degree = '' role = 'Head of the School of Mechanical and Manufacturing Engineering' image = {Chun}/>
 		 					</div>
 		 					<div className="col-4">
-		 						<ProfileCardAcademic name='Shuhua Peng' degree = '' role = 'Academic' image = {Shuhua}/>
+		 						<ProfileCardAcademic name='Dr. Shuhua Peng' degree = '' role = 'ARC DECRA Fellow, School of Mechanical and Manufacturing Engineering' image = {Shuhua}/>
 		 					</div>
 		 					<div className="col-4">
-							 <ProfileCardAcademic name='Yuyan Yu' degree = '' role = 'Academic' image = {Yuyan}/>
+							 <ProfileCardAcademic name='Yuyan Yu' degree = '' role = 'PhD Candidate, School of Mechanical and Manufacturing Engineering' image = {Yuyan}/>
 	 						</div>
 	 					</div>
 		 				<div className = "row">
 		 					<div className="col-4">
-								<ProfileCardStudents name='Taylor Chan' degree = 'Mechatronics/Biomedical Engineering' role = 'Software Team' image = {Taylor}/>
+								<ProfileCardStudents name='Taylor Chan' degree = 'Mechatronics and Biomedical Engineering' role = 'Software Team' image = {Taylor}/>
 		 					</div>
 							<div className="col-4">
-							 	<ProfileCardStudents name='Andrew Kim ' degree = 'Mechatronics/Biomedical Engineering' role = 'Software Team' image = {Andrew}/>
+							 	<ProfileCardStudents name='Andrew Kim ' degree = 'Mechatronics and Biomedical Engineering' role = 'Software Team' image = {Andrew}/>
 	 						</div>		 						
 							<div className="col-4">
-								<ProfileCardStudents name='Akira McPhee ' degree = 'Mechatronics/Biomedical Engineering' role = 'Software Team' image = {Akira}/>
+								<ProfileCardStudents name='Akira McPhee ' degree = 'Mechatronics and Biomedical Engineering' role = 'Software Team' image = {Akira}/>
 							 </div>
 		 				</div>
 		 				<div className = "row">
 						 	<div className="col-4">
-								<ProfileCardStudents name='David Du' degree = 'Mechanical/Biomedical Engineering' role = 'Testing Team' image = {David}/>
+								<ProfileCardStudents name='David Du' degree = 'Mechanical and Biomedical Engineering' role = 'Testing Team' image = {David}/>
 	 						</div>
 	 						<div className="col-4">
-							 	<ProfileCardStudents name='Sutapa Saha' degree = 'Science' role = 'Testing Team' image = {Sutapa}/>
+							 	<ProfileCardStudents name='Sutapa Saha' degree = 'Advanced Science' role = 'Testing Team' image = {Sutapa}/>
 	 						</div>
 							<div className="col-4">
 								<ProfileCardStudents name='Karan Singh' degree = 'Electrical Engineering' role = 'Testing Team' image = {Karan}/>
