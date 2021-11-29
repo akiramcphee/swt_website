@@ -1,5 +1,4 @@
 import React from 'react'
-import Project_cards from '../components/Project_cards/Project_cards'
 import BigProjectCard from '../components/BigProjectCard/BigProjectCard';
 import './Projects.css'
 

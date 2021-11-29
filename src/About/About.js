@@ -30,28 +30,28 @@ export default function About() {
       </div>
       <div className = "row">
         <div className = "col-2">
-          <img src="http://nekofont.upat.jp/font/l/109.jpg"/>
+          <img src="http://nekofont.upat.jp/font/l/109.jpg" alt="osckilloscope"/>
         </div>
         <div className = "col-1">
-         <img src="http://nekofont.upat.jp/font/l/101.jpg"/>
+         <img src="http://nekofont.upat.jp/font/l/101.jpg" alt="osckilloscope"/>
         </div>
         <div className = "col-1">
-          <img src="http://nekofont.upat.jp/font/l/111.jpg"/>
+          <img src="http://nekofont.upat.jp/font/l/111.jpg" alt="osckilloscope"/>
         </div>
         <div className = "col-2">
-          <img src="http://nekofont.upat.jp/font/l/119.jpg"/>
+          <img src="http://nekofont.upat.jp/font/l/119.jpg" alt="osckilloscope"/>
         </div>
         <div className = "col-2">
-          <img src="http://nekofont.upat.jp/font/l/109.jpg"/>
+          <img src="http://nekofont.upat.jp/font/l/109.jpg" alt="osckilloscope"/>
         </div>
         <div className = "col-1">
-         <img src="http://nekofont.upat.jp/font/l/101.jpg"/>
+         <img src="http://nekofont.upat.jp/font/l/101.jpg"alt="osckilloscope" />
         </div>
         <div className = "col-1">
-          <img src="http://nekofont.upat.jp/font/l/111.jpg"/>
+          <img src="http://nekofont.upat.jp/font/l/111.jpg" alt="osckilloscope" />
         </div>
         <div className = "col-2">
-          <img src="http://nekofont.upat.jp/font/l/119.jpg"/>
+          <img src="http://nekofont.upat.jp/font/l/119.jpg" alt="osckilloscope"/>
         </div>
       </div>
     </div>

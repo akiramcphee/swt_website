@@ -1,11 +1,8 @@
 import React from 'react'
-// import Navbar from '../components/Navbar'
-// import Heading from '../components/Heading/Heading';
 import HomeText from '../components/Homepage_Title/HomeText'
 import './Home.css'
 import team from '../images/team.jpg'
-import { Button } from '../components/Button/Button';
-import Project_cards from '../components/Project_cards/Project_cards'
+import ProjectCards from '../components/Project_cards/Project_cards'
 import { Link } from 'react-router-dom'
 
 
@@ -27,13 +24,13 @@ export default function Home() {
             </div>
             <div className="row">
                 <div className="col-4">
-                    <Project_cards projectName='speech'/>  
+                    <ProjectCards projectName='speech'/>  
                 </div>
                 <div className="col-4">
-                    <Project_cards projectName='glove'/>
+                    <ProjectCards projectName='glove'/>
                 </div>
                 <div className="col-4">
-                    <Project_cards projectName='pulse'/>
+                    <ProjectCards projectName='pulse'/>
                 </div>
             </div>
             <div className="row">
